@@ -1,3 +1,151 @@
-body {
 
+/*----------------Body Area--------------------*/
+body {
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: azure;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+/*------------------Div Areas----------------*/
+
+.header {
+    display: table-header-group;
+    margin-top: 12%;
+    position: relative;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+
+    width: 100%;
+    bottom: 25px;
+    align-items: center;
+    justify-content: center;
+
+
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/*------------------Navigation---------------*/
+
+li {
+    display: inline;
+
+}
+
+li ul {
+
+}
+
+li a{
+    padding: 13px;
+    color: rgb(93, 93, 93);
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+    transition: color .4s ease-out;
+}
+
+
+li a:hover {
+    color: #8c02d7;
+    right: 0;
+    text-decoration: none;
+}
+
+li a:hover:after {
+    border-color: #8c02d7;
+    right: 0;
+}
+
+li a:hover:after {
+    right: 0;
+    }
+
+li a:after {
+    border-radius: 1em;
+    border-top: .1em solid #8c02d7;
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: .1em;
+    left: 0;
+    transition: right .4s cubic-bezier(0,.5,0,1),
+    border-color .4s ease-out;
+}
+
+/*------------------Classes------------------*/
+
+.title1 {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.title2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.footer a{
+    color: rgb(91, 91, 91);
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+    transition: color .4s ease-out;
+    padding: 3px;
+}
+
+
+.footer a:hover {
+    color: #8c02d7;
+    right: 0;
+    text-decoration: none;
+}
+
+.footer a:hover:after {
+    border-color: #8c02d7;
+    right: 0;
+}
+
+.footer a:hover:after {
+    right: 0;
+    }
+
+  .footer a:after {
+    border-radius: 1em;
+    border-top: .1em solid #8c02d7;
+    content: "";
+    position: absolute;
+      right: 100%;
+      bottom: .1em;
+      left: 0;
+    transition: right .4s cubic-bezier(0,.5,0,1),
+                border-color .4s ease-out;
 }
