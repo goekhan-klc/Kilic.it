@@ -1,6 +1,11 @@
 
 /*----------------Body Area--------------------*/
 body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: azure;
+}
+
+.bodyAnimated {
     animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -22,13 +27,15 @@ body {
 
 .header {
     display: table-header-group;
-    margin-top: 12%;
+    width: 99%;
+    margin-top: 15%;
     position: relative;
 }
 
 .main {
-    position: relative;
-    width: 100%;
+    position: absolute;
+    margin-top: 40px;
+    width: 99%;
     align-content: center;
     align-self: center;
     text-align: center;
@@ -40,11 +47,9 @@ body {
 .footer {
     position: absolute;
     display: flex;
-
-    width: 100%;
+    width: 97%;
     bottom: 25px;
-    align-items: center;
-    justify-content: center;
+    justify-content: right;
 
 
     flex-wrap: wrap;
@@ -55,10 +60,6 @@ body {
 
 li {
     display: inline;
-
-}
-
-li ul {
 
 }
 
@@ -138,14 +139,43 @@ li a:after {
     right: 0;
     }
 
-  .footer a:after {
+.footer a:after {
     border-radius: 1em;
     border-top: .1em solid #8c02d7;
     content: "";
     position: absolute;
-      right: 100%;
-      bottom: .1em;
-      left: 0;
+    right: 100%;
+    bottom: .1em;
+    left: 0;
     transition: right .4s cubic-bezier(0,.5,0,1),
                 border-color .4s ease-out;
+}
+
+
+
+/*-------------Socials-------------*/
+
+.socialBoxes{
+    position: absolute;
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialInsta {
+    position: relative;
+    width: 40%;
+    height: 50px;
+    border-radius: 20px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 53%, rgba(252,176,69,1) 100%);
+
+    border: 1px transparent;
+
+    font-size: 30px;
+    color: white;
+}
+
+.socialInsta:hover {
+    border: 3px dashed orangered;
 }
