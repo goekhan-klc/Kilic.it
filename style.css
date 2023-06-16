@@ -114,6 +114,112 @@ li a.active {
     bottom: 1px;
 }
 
+/*-----------------Login/Register-----------*/
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #2d2d30;
+    color: #d2d2d2;
+  }
+  
+  .formInput:hover {
+    box-shadow: 0px 0px 5px #5d5d5e(72, 71, 71);
+  }
+  
+  .formSubmit {
+    padding: 10px 20px;
+    background-color: #2d2d30;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #2d2d30;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .formSubmit:hover {
+    border: 2px solid #c497fb;
+  }
+
+  .settingsButton {
+    background-color: #2d2d30;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .aa {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 19px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+  }
+  
+  .alert {
+    color: #FF0000;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .logoutDiv {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .spinner {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #2d2d30;
+    animation: spin 1s infinite linear;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
 /*------------------Classes------------------*/
 
 .title1 {

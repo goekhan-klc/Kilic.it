@@ -1,4 +1,11 @@
 <!--made by me-->
+<?php 
+require './php/config.php'; 
+
+if($setting["maintenance"]) {
+    header("Location: maintenance");
+}
+?>
 
 <!DOCTYPE html>
 <html>
@@ -9,6 +16,7 @@
         <title>Kilic.it</title>
         <link rel="stylesheet" href="style.css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./media/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
     </head>
 
@@ -55,7 +63,7 @@ Diese Webseite setzt keine Cookies.<br>
 
         <footer class="footer"> 
             <ul class="footerNav">
-                <li><a href="login">Login</a></li>
+                 <li><a href="./account/login">Login</a></li>
                 <li><a href="impressum" class="active">Impressum</a></li>
             </ul>
         </footer>
