@@ -59,6 +59,7 @@ require "../php/config.php";
             <ul>
                 <li><a href="../index">Home</a></li>
                 <li><a href="../contact">Kontakt</a></li>
+                <li><a href="../notes/index">Notes</a></li>
             </ul>
         </div>
 
@@ -67,7 +68,7 @@ require "../php/config.php";
             <p style="margin-top:50px"></p>
            <div class="highlight">
 
-            <form action="" method="POST">
+            <form action="" method="POST" class="loginForm">
                 <label for="mail">E-Mail</label>
                 <input class="formInput" type="text" name="mail" id="mail" required><br><br>
                 

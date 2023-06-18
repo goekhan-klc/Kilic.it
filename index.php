@@ -26,6 +26,7 @@ if($setting["maintenance"]) {
             <ul>
                 <li><a href="index" class="active">Home</a></li>
                 <li><a href="contact">Kontakt</a></li>
+                <li><a href="./notes/index">Notes</a></li>
             </ul>
         </div>
 
@@ -57,7 +58,7 @@ if($setting["maintenance"]) {
             <br> <br> <hr class="hr2">
             
             <div class="socialBoxes">
-                <br><button onclick=" window.open('https://kilic.it', '_blank')" class="socialButton bKilicit">Kilic.it <span class="material-symbols-outlined">link</span></button>
+                <br><button onclick=" window.open('../movielist/index', '_blank')" class="socialButton bKilicit">MovieList <span class="material-symbols-outlined">link</span></button>
                 <br><br><br><br>
             </div>
 

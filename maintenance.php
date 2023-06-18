@@ -33,7 +33,7 @@ if(!$setting["maintenance"]) {
 
     <div class="grid-container">
         <div class="main">
-            <span class="title1">Wartung</span> <br>
+            <span class="title1">#404</span> <br>
             <span class="title2">Seite aktuell nicht verfügbar</span>
 
 

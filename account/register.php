@@ -56,6 +56,7 @@ if (isset($_POST["submit"])) {
             <ul>
                 <li><a href="../index">Home</a></li>
                 <li><a href="../contact">Kontakt</a></li>
+                <li><a href="../notes/index">Notes</a></li>
             </ul>
         </div>
 
@@ -63,7 +64,7 @@ if (isset($_POST["submit"])) {
             <h1 class="title1">Registrierung</h1>
             <p style="margin-top:50px"></p>
 
-                <form class="" action="register" method="post" autocomplete="on">
+                <form class="loginForm" action="register" method="post" autocomplete="on">
                 <label for="name">Name:</label>
                 <input class="formInput" type="text" name="name" id="name" required value=""><br>
                 <label for="email">Email:</label>

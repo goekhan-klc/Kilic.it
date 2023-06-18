@@ -1,3 +1,11 @@
+<?php 
+
+if($setting["maintenance"]) {
+  header("Location: maintenance");
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,7 +36,7 @@
   </div>
 
   <audio controls autoplay>
-    <source src="song.mp3" type="audio/mpeg">
+    <source src="../media/song.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
 </body>

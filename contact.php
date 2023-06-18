@@ -25,6 +25,7 @@ if($setting["maintenance"]) {
             <ul>
                 <li><a href="index">Home</a></li>
                 <li><a href="contact" class="active">Kontakt</a></li>
+                <li><a href="./notes/index">Notes</a></li>
             </ul>
         </div>
 
