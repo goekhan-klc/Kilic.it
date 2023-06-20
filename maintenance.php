@@ -17,34 +17,27 @@ if(!$setting["maintenance"]) {
     <title>Kilic.it - Wartung</title>
     <link rel="icon" href="./media/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
 </head>
-
-
     <body>
-        <div class="header">
-            <ul>
 
+    <div class="header">
+         <div class='pcmenu'>
+            <ul>
+                <li><a href="./account/login">Login</a></li>
             </ul>
+         </div>
         </div>
 
-        <br><br>
+        <p style="margin-top: 100px;"></p>
 
     <div class="grid-container">
         <div class="main">
-            <span class="title1">#404</span> <br>
-            <span class="title2">Seite aktuell nicht verfügbar</span>
-
-
+            <span class="title1">:(</span> <br>
+            <span class="title2">Diese Seite ist aktuell nicht verfügbar</span>
         </div>
-
-        
-        <footer class="footer"> 
-            <ul class="footerNav">
-                <li><a href="./account/login">Login</a></li>
-            </ul>
-        </footer>
+    </div>
 
     </body>
 </html>

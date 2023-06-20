@@ -1,6 +1,7 @@
 <!--made by me-->
 
 <?php
+require '../php/elements.php';
 require "../php/config.php";
 
     if(isset($_SESSION["login"]) && $_SESSION["login"] == true) {
@@ -27,8 +28,7 @@ require "../php/config.php";
              $_SESSION["name"] = $row["name"];
              $_SESSION["mail"] = $row["mail"];
 
-            echo "<script> alert('Angemeldet. Weiterleitung..'); </script>";
-            header('Refresh:1; url=../backend/index');
+            header('Location: ../backend/index');
         } else {
             echo "<script> alert('Mail oder Passwort nicht korrekt'); </script>";
             
@@ -44,24 +44,15 @@ require "../php/config.php";
 <!DOCTYPE html>
 <html>
     
-    <head>
-        <html lang="de">
-        <meta charset="utf-8">
-        <title>Kilic.it</title>
-        <link rel="stylesheet" href="../style.css"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="../media/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
-    </head>
-
+<head>
+  <?php getHead("Login"); ?>
+</head>
     <body>
         <div class="header">
-            <ul>
-                <li><a href="../index">Home</a></li>
-                <li><a href="../contact">Kontakt</a></li>
-                <li><a href="../notes/index">Notes</a></li>
-            </ul>
+            <?php getNavigation("Login") ?>
         </div>
+
+        <script src="../php/elements.js"></script>
 
         <div class="main">
             <h1 class="title1">Login</h1>
@@ -83,13 +74,5 @@ require "../php/config.php";
 
            </div>
         </div>
-
-        <footer class="footer"> 
-            <ul class="footerNav">
-                <li><a href="login" class="active">Login</a></li>
-                <li><a href="../impressum">Impressum</a></li>
-            </ul>
-        </footer>
-
     </body>
 </html>

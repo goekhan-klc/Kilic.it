@@ -1,4 +1,6 @@
 <?php
+
+require '../php/elements.php';
 require '../php/config.php';
 
 if($_SESSION["login"] == false || !isset($_SESSION["login"])) {
@@ -15,13 +17,7 @@ if($_SESSION["login"] == false || !isset($_SESSION["login"])) {
 <!DOCTYPE html>
 <html> 
     <head>
-        <html lang='de'>
-        <meta charset='utf-8'>
-        <title>Kilic.it</title>
-        <link rel='stylesheet' href='../style.css'/>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <link rel='icon' href='../media/favicon.ico' type='image/x-icon'>
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0' />
+       " . getHead("Logout") . "
     </head>
 
     <body>
@@ -40,12 +36,6 @@ if($_SESSION["login"] == false || !isset($_SESSION["login"])) {
 
 
         </div>
-
-        <footer class='footer'> 
-            <ul class='footerNav'>
-            </ul>
-        </footer>
-
     </body>
 </html>
 

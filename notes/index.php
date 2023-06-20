@@ -1,10 +1,11 @@
 <!--made by me-->
 
 <?php
+require '../php/elements.php';
 require "../php/config.php";
 
 if($setting["maintenance"]) {
-    header("Location: maintenance");
+    header("Location: ../maintenance");
 }
 
 if(isset($_POST["note"])) {
@@ -17,7 +18,7 @@ if(isset($_POST["note"])) {
     $stmt->bind_param("sss", $id, $text1, $timestamp);
     
     if ($stmt->execute()) {
-        header("Refresh: 1; url=note?id=" . $id);
+        header("Refresh: 0.1; url=note?id=" . $id);
     } else {
         echo "<script> alert('Fehler bei SQL INSERT') </script>";
         echo $conn->error;
@@ -39,23 +40,17 @@ if(isset($_POST["note"])) {
 <!DOCTYPE html>
 <html>
     
-    <head>
-        <html lang="de">
-        <meta charset="utf-8">
-        <title>Kilic.it</title>
-        <link rel="stylesheet" href="../style.css"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="../media/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
-    </head>
-
+<head>
+    <?php getHead("Notes"); ?>
+</head>
     <body>
         <div class="header">
-            <ul>
-                <li><a href="../index">Zurück zur Webseite</a></li>
-                <li><a href="index" class="active">Notes</a></li>
-            </ul>
+            <?php getNavigation("Notes"); ?>
         </div>
+
+        <script src="../php/elements.js"></script>
+
+        <br><br>
 
         <div class="main" style="display: grid; justify-content: center;">
         <span class="title1">Notes</span><br>
@@ -71,7 +66,7 @@ if(isset($_POST["note"])) {
             <br>
             <button class="noteButton" type="submit" name="submit">Speichern & teilen</button>
 
-            <br><br><br><hr><br><br>
+            <br><br><br><hr style="width: 90%"><br><br>
 
         </form>
 
@@ -84,12 +79,9 @@ if(isset($_POST["note"])) {
             <br>
             <button class="noteButton" type="submit" name="submit">Suchen</button>
         </form>
-</div>
 
-        <footer class="footer"> 
-            <ul class="footerNav">
-            </ul>
-        </footer>
+        <p style="margin-top: 50px;"></p>
+    </div>
 
     </body>
 </html>

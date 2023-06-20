@@ -19,4 +19,5 @@ if ($result->num_rows == 1) {
     $setting["maintenance"] = $row["maintenance"];
 }
 
+
 ?>

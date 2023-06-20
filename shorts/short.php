@@ -13,20 +13,20 @@ if(!isset($_GET["id"])) {
 }
 
 $id = $_GET["id"];
-$text;
+$link;
 $timestamp;
 
-$sql = "select * from notes where id=" . $id; 
+$sql = "select * from shorts where id=" . $id; 
 $result = $conn->query($sql);
 $row = $result->fetch_assoc();
 
 if($result->num_rows == 1) {
-$escapedText = htmlspecialchars($row["text"]);
+$escapedText = htmlspecialchars($row["link"]);
 $timestamp = $row["timestamp"];
-$text = nl2br($escapedText);
+$link = nl2br($escapedText);
 
 } else {
-    $text = "Diese Notiz wurde nicht gefunden";
+    $link = "Dieses Short wurde nicht gefunden";
 }
 
 ?>
@@ -34,7 +34,7 @@ $text = nl2br($escapedText);
 
 <script>
         function copyToClipboard() {
-             var confirmationDiv = document.getElementById('confirmation');
+             var confirmationDiv = document.getElementById('confirmation2');
 
             confirmationDiv.style.display = 'block';
             confirmationDiv.style.position = 'fixed';
@@ -57,7 +57,7 @@ $text = nl2br($escapedText);
         function sendConfirmation() {
             var textField = document.createElement('textarea');
 
-            textField.innerText = '<?php echo "https://kilic.it/web/notes/note?id=$id"; ?>';
+            textField.innerText = '<?php echo "https://kilic.it/web/shorts/s?i=$id"; ?>';
             document.body.appendChild(textField);
             textField.select();
             document.execCommand('copy');
@@ -71,10 +71,10 @@ $text = nl2br($escapedText);
 <html>
     
 <head>
-    <?php if($text == "Diese Notiz wurde nicht gefunden") {
-        getHead("Note");
+    <?php if($link == "Dieses Short wurde nicht gefunden") {
+        getHead("Short");
     } else {
-        getHead("Note #" . $id);
+        getHead("Short #" . $id);
     }
     ?>
 </head>
@@ -89,33 +89,36 @@ $text = nl2br($escapedText);
         <br><br>
 
         <div class="main" style="display: grid; justify-content: center;">
-            <span class="title1">Notes</span>
-            <span class="title2">Notiz-ID: <?php if($text == "Diese Notiz wurde nicht gefunden") {echo "-/-";} else {echo $id;} ?></span>
+            <span class="title1">Shorts</span>
+            <span class="title2">Short-ID: <?php if($link == "Dieses Short wurde nicht gefunden") {echo "-/-";} else {echo $id;} ?></span>
            
             <p style="margin-top:50px"></p>
 
-            <?php if($text != "Diese Notiz wurde nicht gefunden") {
-        echo "<div class='showNoteDiv'>
-                <span>$text</span>
-            </div>
-            <br>
-            <span>Erstellt: $timestamp </span>
-
-            <br> <br>
-                <div class='shareNote'> 
-                <a onclick='copyToClipboard()'>https://kilic.it/web/notes/note?id=$id  <span class='material-symbols-outlined'0000>link</span></a>
-                </div>
-              "; } else {
+            <?php if($link != "Dieses Short wurde nicht gefunden") {
                 echo "
-                    <p style='margin-top:15%'></p>
-                    <span style='font-size: 30px; color: rgb(229, 27, 27);'>Dieses Note existiert nicht oder wurde gelöscht.</span>
-                ";
+                
+                <label>Folgender Link wurde gekürzt:
+                <div class='showShortDiv'>
+                    <span>$link</span>
+                </div>
 
-              } ?> 
-            <br> <br> <br>
-        </div>
-        <div id="confirmation" class="informationBox">
+                <br><br><br><br>
+
+                <label>Kurzer Link (Click to Copy)</label>
+                <div class='showShortDiv'>
+                    <span><a onclick='copyToClipboard()'>https://kilic.it/web/shorts/s?i=$id</a></span>
+                </div>
+                <br>
+                <span>Erstellt: $timestamp </span>
+                
+                ";
+            } else {
+                echo "<span style='font-size: 30px; color: rgb(229, 27, 27);'> Es ist unter diesem Short kein Link hinterlegt </span>";
+            }
+            ?>
+
+            <div id="confirmation2" class="informationBox">
                 In die Zwischenablage kopiert!
-        </div>
+            </div>
     </body>
 </html>

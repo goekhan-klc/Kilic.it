@@ -9,6 +9,7 @@ if($setting["maintenance"]) {
 <!DOCTYPE html>
 <html>
 <head>
+  <?php getHead() ?>
   <title>Nalabaer</title>
   <style>
 
