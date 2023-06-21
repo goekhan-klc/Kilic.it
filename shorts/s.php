@@ -55,18 +55,21 @@ $link = nl2br($escapedText);
             <span class="title2">Short-ID: <?php if($text == "Diese Notiz wurde nicht gefunden") {echo "-/-";} else {echo $id;} ?></span>
            
             <p style="margin-top:50px"></p>
+            <div class="shortRedirect">
 
             <?php if($link != "Dieses Short wurde nicht gefunden") {
   
-                echo "<span style='font-size: 35px; color: white;'> Du wirst jetzt zu folgender Seite weitergeleitet: </span> <div class='spinner'></div> <br> <br>
-                      <span style='font-size: 25px; color: white; text-decoration: underline;'> $link </span>
+                echo "<span> Du wirst jetzt zu folgender Seite weitergeleitet: </span> <div class='spinner'></div> <br> <br>
+                      <span style='text-decoration: underline;'> $link </span>
                 ";
 
                 header("Refresh: 3; url=$link");
 
             } else {
-                echo "<span style='font-size: 30px; color: rgb(229, 27, 27);'> Es ist unter diesem Short kein Link hinterlegt </span>";
+                echo "<span style='color: rgb(229, 27, 27);'> Es ist unter diesem Short kein Link hinterlegt </span>";
             }
             ?>
+            </div> 
+        </div>
     </body>
 </html>

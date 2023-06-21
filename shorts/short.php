@@ -38,10 +38,11 @@ $link = nl2br($escapedText);
 
             confirmationDiv.style.display = 'block';
             confirmationDiv.style.position = 'fixed';
-            confirmationDiv.style.bottom = '3px';
-            confirmationDiv.style.right = '3px';
+            confirmationDiv.style.bottom = '5%';
+            confirmationDiv.style.right = '2%';
 
             confirmationDiv.classList.remove('fadeInOut');
+            void confirmationDiv.offsetWidth;
             confirmationDiv.classList.add('fadeInOut');
 
             
@@ -97,8 +98,8 @@ $link = nl2br($escapedText);
             <?php if($link != "Dieses Short wurde nicht gefunden") {
                 echo "
                 
-                <label>Folgender Link wurde gekürzt:
-                <div class='showShortDiv'>
+                <label>Folgender Link wurde gekürzt: </label>
+                <div class='showLinkDiv'>
                     <span>$link</span>
                 </div>
 

@@ -452,6 +452,33 @@ body {
   text-align: left;
 }
 
+.showLinkDiv {
+  background-color: #2d2d30;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 10px;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 16px;
+  color: white;
+  width: auto;
+  height: auto;
+  overflow-x: auto;
+  text-align: left;
+}
+
+.shortRedirect {
+  width: 100%;
+  font-size: 30px;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .shortRedirect {
+    width: 80%;
+    font-size: 20px;
+  }
+}
+
 
 /*------------------Classes------------------*/
 

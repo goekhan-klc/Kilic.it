@@ -42,6 +42,7 @@ $text = nl2br($escapedText);
             confirmationDiv.style.right = '3px';
 
             confirmationDiv.classList.remove('fadeInOut');
+            void confirmationDiv.offsetWidth;
             confirmationDiv.classList.add('fadeInOut');
 
             

@@ -62,7 +62,7 @@ function isLink($text) {
 
         <form action="" method="POST" class="noteCreateForm">
             <div class="noteAreaContainer">
-                <label for="note">Tippe den Link ein welchen du kürzen möchtest</label>
+                <label for="note" style="width: 90%;">Tippe den Link ein welchen du kürzen möchtest</label>
                 <input type="text" class="formInput" placeholder="Link..." name="short" id="short" required></textarea>
             </div>
 

@@ -100,7 +100,10 @@ if(isset($_POST["submit3"])) {
             
            ?>
 
+
                 <p style="margin-top:50px"></p>
+                <hr style="width: 70%"> <br>
+
                 <span class="title2">Notes</span>
                 <br>
                 <label>Aktuell gespeicherte Notes: <?php 
@@ -121,6 +124,8 @@ if(isset($_POST["submit3"])) {
 
 
                 <p style="margin-top:50px"></p>
+                <hr style="width: 70%"> <br>
+
                 <span class="title2">Shorts</span>
                 <br>
                 <label>Aktuell gespeicherte Shorts: <?php 
@@ -138,6 +143,8 @@ if(isset($_POST["submit3"])) {
                     <input class="formInput" style="height: 20px; width: 10%;" type="text" placeholder="ID..." name="delete" required>
                     <br> <button class="settingsButton" type="submit" name="submit3">Löschen</button>
                 </form>
+                
+                <p style="margin-top:50px"></p> <br>
 
             </div>
         </div>
