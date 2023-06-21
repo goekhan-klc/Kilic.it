@@ -12683,3 +12683,5 @@
 95.223.106.227 - - [21/Jun/2023:19:18:23 +0000] "-" 408 152 "-" "-"
 95.223.106.227 - - [21/Jun/2023:19:18:23 +0000] "-" 408 152 "-" "-"
 83.97.73.89 - - [21/Jun/2023:19:19:46 +0000] "GET /index.php?s=/Index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1" 200 1582 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+95.223.106.227 - - [21/Jun/2023:19:22:05 +0000] "-" 408 4150 "-" "-"
+95.223.106.227 - - [21/Jun/2023:19:22:05 +0000] "-" 408 4148 "-" "-"
