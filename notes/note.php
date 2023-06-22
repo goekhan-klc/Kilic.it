@@ -58,7 +58,7 @@ $text = nl2br($escapedText);
         function sendConfirmation() {
             var textField = document.createElement('textarea');
 
-            textField.innerText = '<?php echo "https://kilic.it/web/notes/note?id=$id"; ?>';
+            textField.innerText = '<?php echo "https://kilic.it/notes/note?id=$id"; ?>';
             document.body.appendChild(textField);
             textField.select();
             document.execCommand('copy');
@@ -104,7 +104,7 @@ $text = nl2br($escapedText);
 
             <br> <br>
                 <div class='shareNote'> 
-                <a onclick='copyToClipboard()'>https://kilic.it/web/notes/note?id=$id  <span class='material-symbols-outlined'0000>link</span></a>
+                <a onclick='copyToClipboard()'>https://kilic.it/notes/note?id=$id  <span class='material-symbols-outlined'0000>link</span></a>
                 </div>
               "; } else {
                 echo "

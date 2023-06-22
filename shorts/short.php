@@ -58,7 +58,7 @@ $link = nl2br($escapedText);
         function sendConfirmation() {
             var textField = document.createElement('textarea');
 
-            textField.innerText = '<?php echo "https://kilic.it/web/shorts/s?i=$id"; ?>';
+            textField.innerText = '<?php echo "https://kilic.it/s?i=$id"; ?>';
             document.body.appendChild(textField);
             textField.select();
             document.execCommand('copy');
@@ -107,7 +107,7 @@ $link = nl2br($escapedText);
 
                 <label>Kurzer Link (Click to Copy)</label>
                 <div class='showShortDiv'>
-                    <span><a onclick='copyToClipboard()'>https://kilic.it/web/shorts/s?i=$id</a></span>
+                    <span><a onclick='copyToClipboard()'>https://kilic.it/s?i=$id</a></span>
                 </div>
                 <br>
                 <span>Erstellt: $timestamp </span>

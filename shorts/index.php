@@ -10,7 +10,7 @@ if($setting["maintenance"]) {
 
 if(isset($_POST["short"])) {
     $link = $_POST["short"];
-    $id = rand(1, 999);
+    $id = rand(1, 99999);
     $timestamp = date("d.m.Y H:i:s");
 
     if(isLink($link)) {

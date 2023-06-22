@@ -44,7 +44,7 @@ if(isset($_POST["submit2"])) {
 if(isset($_POST["submit3"])) {
     $id = $_POST["delete"];
 
-    if(strlen($id > 1 && $id < 9999)) {
+    if(strlen($id > 1 && $id < 999999)) {
         $sql = "delete from shorts where id=" . $id;
         if($conn->query($sql) === TRUE) {
             header("Refresh: 0.1; url='index'");

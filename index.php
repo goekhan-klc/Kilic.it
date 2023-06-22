@@ -49,7 +49,7 @@ if($setting["maintenance"]) {
             <br> <br> <hr class="hr2">
             
             <div class="socialBoxes">
-                <br><button onclick=" window.open('../movielist/index', '_blank')" class="socialButton bKilicit">MovieList <span class="material-symbols-outlined">link</span></button>
+                <br><button onclick=" window.open('./project/movielist/index', '_blank')" class="socialButton bKilicit">MovieList <span class="material-symbols-outlined">link</span></button>
                 <br><br><br><br>
             </div>
 

@@ -6,7 +6,7 @@ function getHead($titleText = "null") {
     $lfavicon;
 
     switch($dir) {
-        case "/srv/www/kilicit/web":
+        case "/srv/www/kilicit":
             $lstylesheet = "style.css";
             $lfavicon = "./media/favicon.ico";
         break;
@@ -50,8 +50,8 @@ function getNavigation($active) {
     };
 
     switch($dir) {
-        case "/srv/www/kilicit/web":
-            $lhome = "index";
+        case "/srv/www/kilicit":
+            $lhome = "https://kilic.it";
             $lcontact = "contact";
             $lnotes = "./notes/index";
             $lshorts = "./shorts/index";
@@ -62,8 +62,8 @@ function getNavigation($active) {
             $llogout = "./account/logout";
         break;
 
-        case "/srv/www/kilicit/web/notes": 
-            $lhome = "../index";
+        case "/srv/www/kilicit/notes": 
+            $lhome = "https://kilic.it";
             $lcontact = "../contact";
             $lnotes = "index";
             $lshorts = "../shorts/index";
@@ -74,8 +74,8 @@ function getNavigation($active) {
             $llogout = "../account/logout";
         break;
 
-        case "/srv/www/kilicit/web/backend": 
-            $lhome = "../index";
+        case "/srv/www/kilicit/backend": 
+            $lhome = "https://kilic.it";
             $lcontact = "../contact";
             $lnotes = "../notes/index";
             $lshorts = "../shorts/index";
@@ -86,8 +86,8 @@ function getNavigation($active) {
             $llogout = "../account/logout";
         break;
 
-        case "/srv/www/kilicit/web/account": 
-            $lhome = "../index";
+        case "/srv/www/kilicit/account": 
+            $lhome = "https://kilic.it";
             $lcontact = "../contact";
             $lnotes = "../notes/index";
             $lshorts = "../shorts/index";
@@ -98,8 +98,8 @@ function getNavigation($active) {
             $llogout = "logout";
         break;
 
-        case "/srv/www/kilicit/web/shorts": 
-            $lhome = "../index";
+        case "/srv/www/kilicit/shorts": 
+            $lhome = "https://kilic.it";
             $lcontact = "../contact";
             $lnotes = "../notes/index";
             $lshorts = "index";

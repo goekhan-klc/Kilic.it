@@ -1,11 +1,11 @@
 <!--made by me-->
 
 <?php
-require '../php/elements.php';
-require "../php/config.php";
+require './php/elements.php';
+require "./php/config.php";
 
 if($setting["maintenance"]) {
-    header("Location: ../maintenance");
+    header("Location: maintenance");
 }
 
 if(!isset($_GET["i"])) {
@@ -47,7 +47,7 @@ $link = nl2br($escapedText);
         <div class="header">
         </div>
 
-        <script src="../php/elements.js"></script>
+        <script src="./php/elements.js"></script>
 
 
         <div class="main" style="display: grid; justify-content: center;">
@@ -59,7 +59,7 @@ $link = nl2br($escapedText);
 
             <?php if($link != "Dieses Short wurde nicht gefunden") {
   
-                echo "<span> Du wirst jetzt zu folgender Seite weitergeleitet: </span> <div class='spinner'></div> <br> <br>
+                echo "<span style='width:auto;'> Weiterleitung zu: </span> <span class='loader'></span><br> <br>
                       <span style='text-decoration: underline;'> $link </span>
                 ";
 
