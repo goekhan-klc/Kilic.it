@@ -31,7 +31,7 @@ if($_SESSION["login"] == false || !isset($_SESSION["login"])) {
             <p style='margin-top:50px'></p>
            
             <div class='logoutDiv'>
-            <h2>Du wirst nun ausgeloggt...</h2><div class='spinner'></div>
+                <h2>Du wirst nun ausgeloggt...</h2><div class='spinner'></div>
             </div>
 
 
