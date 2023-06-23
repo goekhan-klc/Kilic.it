@@ -44,22 +44,21 @@ $link = nl2br($escapedText);
 </head>
 
     <body>
-        <div class="header">
-        </div>
 
         <script src="./php/elements.js"></script>
 
 
-        <div class="main" style="display: grid; justify-content: center;">
-            <span class="title1">Shorts</span>
+        <div class="main" style="justify-content: center;">
+            <span class="title1">Shorts</span> <br>
             <span class="title2">Short-ID: <?php if($text == "Diese Notiz wurde nicht gefunden") {echo "-/-";} else {echo $id;} ?></span>
            
             <p style="margin-top:50px"></p>
+
             <div class="shortRedirect">
 
             <?php if($link != "Dieses Short wurde nicht gefunden") {
   
-                echo "<span style='width:auto;'> Weiterleitung zu: </span> <span class='loader'></span><br> <br>
+                echo "Weiterleitung zu: <div class='spinner'></div> <br><br>
                       <span style='text-decoration: underline;'> $link </span>
                 ";
 

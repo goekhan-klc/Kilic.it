@@ -7202,3 +7202,771 @@
 [Thu Jun 22 22:22:35.749769 2023] [:error] [pid 15430] [client 95.223.106.227:9923] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/impressum
 [Thu Jun 22 22:22:35.749810 2023] [:error] [pid 15430] [client 95.223.106.227:9923] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/impressum
 [Thu Jun 22 22:22:35.749830 2023] [:error] [pid 15430] [client 95.223.106.227:9923] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/impressum
+[Thu Jun 22 22:23:14.879801 2023] [:error] [pid 17525] [client 205.210.31.143:61506] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Thu Jun 22 22:23:14.880066 2023] [:error] [pid 17525] [client 205.210.31.143:61506] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Thu Jun 22 22:23:14.880127 2023] [:error] [pid 17525] [client 205.210.31.143:61506] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Thu Jun 22 22:46:37.765486 2023] [:error] [pid 15429] [client 40.77.167.194:16291] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Thu Jun 22 22:46:37.765532 2023] [:error] [pid 15429] [client 40.77.167.194:16291] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Thu Jun 22 22:46:37.765539 2023] [:error] [pid 15429] [client 40.77.167.194:16291] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Thu Jun 22 22:46:41.617025 2023] [:error] [pid 15432] [client 40.77.167.145:55297] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Thu Jun 22 22:46:41.617063 2023] [:error] [pid 15432] [client 40.77.167.145:55297] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Thu Jun 22 22:46:41.617071 2023] [:error] [pid 15432] [client 40.77.167.145:55297] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Thu Jun 22 22:46:47.269076 2023] [:error] [pid 15577] [client 40.77.167.194:16304] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Thu Jun 22 22:46:47.269116 2023] [:error] [pid 15577] [client 40.77.167.194:16304] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Thu Jun 22 22:46:47.269125 2023] [:error] [pid 15577] [client 40.77.167.194:16304] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Thu Jun 22 22:46:49.240781 2023] [:error] [pid 27690] [client 40.77.167.145:55303] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Thu Jun 22 22:46:49.240819 2023] [:error] [pid 27690] [client 40.77.167.145:55303] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Thu Jun 22 22:46:49.240826 2023] [:error] [pid 27690] [client 40.77.167.145:55303] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Thu Jun 22 22:46:51.121717 2023] [:error] [pid 15427] [client 40.77.167.201:46035] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Thu Jun 22 22:46:51.121753 2023] [:error] [pid 15427] [client 40.77.167.201:46035] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Thu Jun 22 22:46:51.121760 2023] [:error] [pid 15427] [client 40.77.167.201:46035] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Thu Jun 22 22:46:59.596171 2023] [:error] [pid 15430] [client 40.77.167.145:55302] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Thu Jun 22 22:46:59.596211 2023] [:error] [pid 15430] [client 40.77.167.145:55302] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Thu Jun 22 22:46:59.596219 2023] [:error] [pid 15430] [client 40.77.167.145:55302] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Thu Jun 22 22:53:17.099180 2023] [:error] [pid 15428] [client 51.79.29.48:56964] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Thu Jun 22 22:53:17.099219 2023] [:error] [pid 15428] [client 51.79.29.48:56964] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Thu Jun 22 22:53:17.099237 2023] [:error] [pid 15428] [client 51.79.29.48:56964] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Thu Jun 22 23:30:14.690663 2023] [:error] [pid 15577] [client 198.235.24.178:49948] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Thu Jun 22 23:30:14.690699 2023] [:error] [pid 15577] [client 198.235.24.178:49948] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Thu Jun 22 23:30:14.690708 2023] [:error] [pid 15577] [client 198.235.24.178:49948] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Thu Jun 22 23:44:50.879494 2023] [:error] [pid 17525] [client 35.216.229.26:33536] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Thu Jun 22 23:44:50.879524 2023] [:error] [pid 17525] [client 35.216.229.26:33536] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Thu Jun 22 23:44:50.879532 2023] [:error] [pid 17525] [client 35.216.229.26:33536] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Thu Jun 22 23:44:50.942245 2023] [authz_core:error] [pid 27692] [client 35.216.229.26:33556] AH01630: client denied by server configuration: /srv/www/kilicit/server-status
+[Thu Jun 22 23:44:51.102475 2023] [:error] [pid 27690] [client 35.216.229.26:33606] script '/srv/www/kilicit/info.php' not found or unable to stat
+[Fri Jun 23 00:02:06.236811 2023] [:error] [pid 17525] [client 91.224.92.16:54128] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 00:02:06.236845 2023] [:error] [pid 17525] [client 91.224.92.16:54128] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 00:02:06.236854 2023] [:error] [pid 17525] [client 91.224.92.16:54128] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 00:02:21.950171 2023] [:error] [pid 15428] [client 83.97.73.89:44586] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 00:02:21.950204 2023] [:error] [pid 15428] [client 83.97.73.89:44586] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 00:02:21.950213 2023] [:error] [pid 15428] [client 83.97.73.89:44586] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 00:10:10.517424 2023] [:error] [pid 27692] [client 51.79.29.48:46196] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 00:10:10.517470 2023] [:error] [pid 27692] [client 51.79.29.48:46196] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 00:10:10.517479 2023] [:error] [pid 27692] [client 51.79.29.48:46196] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 00:11:56.325183 2023] [:error] [pid 15432] [client 83.97.73.89:48454] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 00:11:56.325220 2023] [:error] [pid 15432] [client 83.97.73.89:48454] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 00:11:56.325228 2023] [:error] [pid 15432] [client 83.97.73.89:48454] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 00:13:13.082676 2023] [:error] [pid 15577] [client 47.88.78.6:44383] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 00:13:13.082712 2023] [:error] [pid 15577] [client 47.88.78.6:44383] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 00:13:13.082720 2023] [:error] [pid 15577] [client 47.88.78.6:44383] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 00:16:52.441246 2023] [:error] [pid 15430] [client 87.249.132.136:51850] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/
+[Fri Jun 23 00:16:52.441281 2023] [:error] [pid 15430] [client 87.249.132.136:51850] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/
+[Fri Jun 23 00:16:52.441289 2023] [:error] [pid 15430] [client 87.249.132.136:51850] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/
+[Fri Jun 23 00:16:52.573539 2023] [:error] [pid 17525] [client 87.249.132.136:51864] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/contact
+[Fri Jun 23 00:16:52.573574 2023] [:error] [pid 17525] [client 87.249.132.136:51864] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/contact
+[Fri Jun 23 00:16:52.573583 2023] [:error] [pid 17525] [client 87.249.132.136:51864] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/contact
+[Fri Jun 23 00:21:04.472940 2023] [:error] [pid 15428] [client 87.249.132.136:13326] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/
+[Fri Jun 23 00:21:04.472974 2023] [:error] [pid 15428] [client 87.249.132.136:13326] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/
+[Fri Jun 23 00:21:04.472983 2023] [:error] [pid 15428] [client 87.249.132.136:13326] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/
+[Fri Jun 23 00:21:04.609785 2023] [:error] [pid 27692] [client 87.249.132.136:13343] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/contact
+[Fri Jun 23 00:21:04.609817 2023] [:error] [pid 27692] [client 87.249.132.136:13343] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/contact
+[Fri Jun 23 00:21:04.609826 2023] [:error] [pid 27692] [client 87.249.132.136:13343] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/contact
+[Fri Jun 23 01:05:59.826069 2023] [:error] [pid 15577] [client 51.79.29.48:57590] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 01:05:59.826104 2023] [:error] [pid 15577] [client 51.79.29.48:57590] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 01:05:59.826112 2023] [:error] [pid 15577] [client 51.79.29.48:57590] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 01:26:11.163867 2023] [:error] [pid 15428] [client 83.97.73.89:37678] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 01:26:11.163899 2023] [:error] [pid 15428] [client 83.97.73.89:37678] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 01:26:11.163906 2023] [:error] [pid 15428] [client 83.97.73.89:37678] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 01:33:45.969254 2023] [:error] [pid 27692] [client 162.216.149.157:60612] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 01:33:45.969290 2023] [:error] [pid 27692] [client 162.216.149.157:60612] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 01:33:45.969299 2023] [:error] [pid 27692] [client 162.216.149.157:60612] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 01:47:14.628184 2023] [:error] [pid 15577] [client 212.92.101.169:54762] script '/srv/www/kilicit/style.php' not found or unable to stat
+[Fri Jun 23 02:18:03.285239 2023] [:error] [pid 27692] [client 162.216.149.50:62258] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 02:18:03.285273 2023] [:error] [pid 27692] [client 162.216.149.50:62258] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 02:18:03.285281 2023] [:error] [pid 27692] [client 162.216.149.50:62258] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 02:21:42.281292 2023] [:error] [pid 15432] [client 40.77.167.201:48582] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 02:21:42.281328 2023] [:error] [pid 15432] [client 40.77.167.201:48582] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 02:21:42.281337 2023] [:error] [pid 15432] [client 40.77.167.201:48582] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 02:29:51.522740 2023] [:error] [pid 15432] [client 185.180.143.141:34594] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 02:29:51.522773 2023] [:error] [pid 15432] [client 185.180.143.141:34594] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 02:29:51.522780 2023] [:error] [pid 15432] [client 185.180.143.141:34594] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 02:32:29.601679 2023] [:error] [pid 15429] [client 51.79.29.48:57512] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 02:32:29.601714 2023] [:error] [pid 15429] [client 51.79.29.48:57512] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 02:32:29.601723 2023] [:error] [pid 15429] [client 51.79.29.48:57512] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 03:00:20.699320 2023] [:error] [pid 15428] [client 185.180.143.140:39902] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 03:00:20.699356 2023] [:error] [pid 15428] [client 185.180.143.140:39902] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 03:00:20.699365 2023] [:error] [pid 15428] [client 185.180.143.140:39902] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 03:01:28.561851 2023] [:error] [pid 27692] [client 43.158.217.137:52312] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 03:01:28.561886 2023] [:error] [pid 27692] [client 43.158.217.137:52312] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 03:01:28.561894 2023] [:error] [pid 27692] [client 43.158.217.137:52312] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 03:01:50.839915 2023] [:error] [pid 15429] [client 82.66.1.243:41986] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /usr/share/phpmyadmin/libraries/core.lib.php:235\nStack trace:\n#0 /usr/share/phpmyadmin/libraries/core.lib.php(308): PMA_fatalError('The [a@./url.ph...')\n#1 /usr/share/phpmyadmin/libraries/common.inc.php(90): PMA_warnMissingExtension('mbstring', true)\n#2 /usr/share/phpmyadmin/index.php(12): require_once('/usr/share/phpm...')\n#3 {main}\n  thrown in /usr/share/phpmyadmin/libraries/core.lib.php on line 235
+[Fri Jun 23 03:01:51.791576 2023] [:error] [pid 15577] [client 82.66.1.243:41988] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 03:01:51.791597 2023] [:error] [pid 15577] [client 82.66.1.243:41988] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 03:01:51.791616 2023] [:error] [pid 15577] [client 82.66.1.243:41988] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 03:05:42.720828 2023] [:error] [pid 27690] [client 83.97.73.89:52102] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 03:05:42.720860 2023] [:error] [pid 27690] [client 83.97.73.89:52102] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 03:05:42.720868 2023] [:error] [pid 27690] [client 83.97.73.89:52102] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 03:12:22.569270 2023] [:error] [pid 15427] [client 23.102.174.254:63938] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 03:12:22.569302 2023] [:error] [pid 15427] [client 23.102.174.254:63938] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 03:12:22.569310 2023] [:error] [pid 15427] [client 23.102.174.254:63938] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 03:12:24.024490 2023] [:error] [pid 17525] [client 23.102.174.254:63991] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 03:12:24.024523 2023] [:error] [pid 17525] [client 23.102.174.254:63991] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 03:12:24.024531 2023] [:error] [pid 17525] [client 23.102.174.254:63991] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 03:47:37.794441 2023] [:error] [pid 15432] [client 179.43.177.244:46804] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 03:47:37.794474 2023] [:error] [pid 15432] [client 179.43.177.244:46804] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 03:47:37.794482 2023] [:error] [pid 15432] [client 179.43.177.244:46804] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 04:12:50.314606 2023] [core:error] [pid 15430] [client 83.97.73.89:36644] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Jun 23 04:22:07.866852 2023] [:error] [pid 15427] [client 192.241.211.25:48766] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 04:22:07.866886 2023] [:error] [pid 15427] [client 192.241.211.25:48766] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 04:22:07.866895 2023] [:error] [pid 15427] [client 192.241.211.25:48766] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 04:22:29.476657 2023] [:error] [pid 17525] [client 198.199.108.20:56178] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 04:22:29.476690 2023] [:error] [pid 17525] [client 198.199.108.20:56178] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 04:22:29.476698 2023] [:error] [pid 17525] [client 198.199.108.20:56178] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 04:24:25.622421 2023] [:error] [pid 15432] [client 192.241.199.78:42636] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 04:24:25.622457 2023] [:error] [pid 15432] [client 192.241.199.78:42636] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 04:24:25.622466 2023] [:error] [pid 15432] [client 192.241.199.78:42636] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 04:25:42.168802 2023] [:error] [pid 15429] [client 83.97.73.89:33546] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 04:25:42.168846 2023] [:error] [pid 15429] [client 83.97.73.89:33546] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 04:25:42.168854 2023] [:error] [pid 15429] [client 83.97.73.89:33546] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 04:44:28.583814 2023] [:error] [pid 27690] [client 188.255.247.163:40025] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 04:44:28.583848 2023] [:error] [pid 27690] [client 188.255.247.163:40025] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 04:44:28.583857 2023] [:error] [pid 27690] [client 188.255.247.163:40025] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 04:45:25.696067 2023] [:error] [pid 15430] [client 82.165.34.147:54600] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 04:45:25.696101 2023] [:error] [pid 15430] [client 82.165.34.147:54600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 04:45:25.696110 2023] [:error] [pid 15430] [client 82.165.34.147:54600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 05:08:59.057014 2023] [:error] [pid 15430] [client 152.32.205.73:49942] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 05:08:59.057042 2023] [:error] [pid 15430] [client 152.32.205.73:49942] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 05:08:59.057050 2023] [:error] [pid 15430] [client 152.32.205.73:49942] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 05:16:34.295949 2023] [:error] [pid 27692] [client 78.153.130.241:53872] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 05:16:34.295982 2023] [:error] [pid 27692] [client 78.153.130.241:53872] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 05:16:34.295990 2023] [:error] [pid 27692] [client 78.153.130.241:53872] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 05:16:34.586127 2023] [:error] [pid 15429] [client 78.153.130.241:53969] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 05:16:34.586158 2023] [:error] [pid 15429] [client 78.153.130.241:53969] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 05:16:34.586166 2023] [:error] [pid 15429] [client 78.153.130.241:53969] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 05:18:30.855925 2023] [:error] [pid 27690] [client 118.193.65.94:38346] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 05:18:30.855960 2023] [:error] [pid 27690] [client 118.193.65.94:38346] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 05:18:30.855969 2023] [:error] [pid 27690] [client 118.193.65.94:38346] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 05:18:39.419034 2023] [:error] [pid 27690] [client 118.193.65.94:43494] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /usr/share/phpmyadmin/libraries/core.lib.php:235\nStack trace:\n#0 /usr/share/phpmyadmin/libraries/core.lib.php(308): PMA_fatalError('The [a@./url.ph...')\n#1 /usr/share/phpmyadmin/libraries/common.inc.php(90): PMA_warnMissingExtension('mbstring', true)\n#2 /usr/share/phpmyadmin/index.php(12): require_once('/usr/share/phpm...')\n#3 {main}\n  thrown in /usr/share/phpmyadmin/libraries/core.lib.php on line 235
+[Fri Jun 23 05:18:40.003447 2023] [:error] [pid 27692] [client 118.193.65.94:44200] script '/srv/www/kilicit/index_sso.php' not found or unable to stat
+[Fri Jun 23 05:51:38.044435 2023] [:error] [pid 15577] [client 83.97.73.89:42250] script '/srv/www/kilicit/geoserver.php' not found or unable to stat
+[Fri Jun 23 06:13:32.824302 2023] [:error] [pid 17525] [client 54.37.79.75:47284] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 06:13:32.824333 2023] [:error] [pid 17525] [client 54.37.79.75:47284] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 06:13:32.824342 2023] [:error] [pid 17525] [client 54.37.79.75:47284] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 06:15:15.618516 2023] [:error] [pid 15432] [client 65.49.20.68:29064] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 06:15:15.618552 2023] [:error] [pid 15432] [client 65.49.20.68:29064] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 06:15:15.618561 2023] [:error] [pid 15432] [client 65.49.20.68:29064] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 07:01:55.607097 2023] [:error] [pid 5006] [client 54.37.79.75:59426] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 07:01:55.607145 2023] [:error] [pid 5006] [client 54.37.79.75:59426] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 07:01:55.607153 2023] [:error] [pid 5006] [client 54.37.79.75:59426] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 07:16:27.034398 2023] [:error] [pid 5006] [client 179.43.177.244:60610] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 07:16:27.034434 2023] [:error] [pid 5006] [client 179.43.177.244:60610] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 07:16:27.034441 2023] [:error] [pid 5006] [client 179.43.177.244:60610] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 07:21:38.216913 2023] [:error] [pid 4665] [client 45.156.129.12:44560] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 07:21:38.216946 2023] [:error] [pid 4665] [client 45.156.129.12:44560] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 07:21:38.216953 2023] [:error] [pid 4665] [client 45.156.129.12:44560] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 07:35:39.481024 2023] [:error] [pid 4663] [client 82.165.34.147:60040] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 07:35:39.481058 2023] [:error] [pid 4663] [client 82.165.34.147:60040] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 07:35:39.481066 2023] [:error] [pid 4663] [client 82.165.34.147:60040] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 07:40:22.296916 2023] [:error] [pid 4666] [client 83.97.73.89:37342] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 07:40:22.296951 2023] [:error] [pid 4666] [client 83.97.73.89:37342] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 07:40:22.296960 2023] [:error] [pid 4666] [client 83.97.73.89:37342] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 07:57:31.976027 2023] [:error] [pid 4665] [client 54.37.79.75:42426] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 07:57:31.976070 2023] [:error] [pid 4665] [client 54.37.79.75:42426] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 07:57:31.976079 2023] [:error] [pid 4665] [client 54.37.79.75:42426] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 08:01:43.244401 2023] [:error] [pid 4664] [client 162.216.149.57:61558] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 08:01:43.244435 2023] [:error] [pid 4664] [client 162.216.149.57:61558] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 08:01:43.244442 2023] [:error] [pid 4664] [client 162.216.149.57:61558] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 08:14:32.409052 2023] [:error] [pid 5006] [client 94.102.61.10:48292] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 08:14:32.409086 2023] [:error] [pid 5006] [client 94.102.61.10:48292] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 08:14:32.409095 2023] [:error] [pid 5006] [client 94.102.61.10:48292] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 08:24:15.308940 2023] [:error] [pid 4666] [client 138.197.24.148:59698] script '/srv/www/kilicit/ab2g.php' not found or unable to stat
+[Fri Jun 23 08:24:15.663250 2023] [:error] [pid 5006] [client 138.197.24.148:59710] script '/srv/www/kilicit/ab2h.php' not found or unable to stat
+[Fri Jun 23 08:24:17.645827 2023] [:error] [pid 5006] [client 138.197.24.148:59792] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 08:24:17.645860 2023] [:error] [pid 5006] [client 138.197.24.148:59792] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 08:24:17.645867 2023] [:error] [pid 5006] [client 138.197.24.148:59792] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 08:24:18.318456 2023] [:error] [pid 4667] [client 138.197.24.148:59804] script '/srv/www/kilicit/t4.php' not found or unable to stat
+[Fri Jun 23 08:24:19.416350 2023] [:error] [pid 5006] [client 138.197.24.148:59828] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 08:24:19.416382 2023] [:error] [pid 5006] [client 138.197.24.148:59828] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 08:24:19.416390 2023] [:error] [pid 5006] [client 138.197.24.148:59828] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 08:26:39.051384 2023] [:error] [pid 4665] [client 54.37.79.75:55078] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 08:26:39.051420 2023] [:error] [pid 4665] [client 54.37.79.75:55078] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 08:26:39.051428 2023] [:error] [pid 4665] [client 54.37.79.75:55078] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 08:33:57.479689 2023] [:error] [pid 4664] [client 176.58.96.236:14827] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 08:33:57.479722 2023] [:error] [pid 4664] [client 176.58.96.236:14827] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 08:33:57.479730 2023] [:error] [pid 4664] [client 176.58.96.236:14827] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 08:36:42.592364 2023] [:error] [pid 4665] [client 78.138.99.182:2484] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/
+[Fri Jun 23 08:36:42.592409 2023] [:error] [pid 4665] [client 78.138.99.182:2484] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/
+[Fri Jun 23 08:36:42.592418 2023] [:error] [pid 4665] [client 78.138.99.182:2484] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/
+[Fri Jun 23 08:36:42.699503 2023] [:error] [pid 4667] [client 78.138.99.182:2492] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/contact
+[Fri Jun 23 08:36:42.699538 2023] [:error] [pid 4667] [client 78.138.99.182:2492] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/contact
+[Fri Jun 23 08:36:42.699546 2023] [:error] [pid 4667] [client 78.138.99.182:2492] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/contact
+[Fri Jun 23 08:58:46.943246 2023] [:error] [pid 5006] [client 205.210.31.10:51096] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 08:58:46.943280 2023] [:error] [pid 5006] [client 205.210.31.10:51096] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 08:58:46.943289 2023] [:error] [pid 5006] [client 205.210.31.10:51096] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 09:07:30.156460 2023] [:error] [pid 4666] [client 128.1.248.26:33588] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 09:07:30.156492 2023] [:error] [pid 4666] [client 128.1.248.26:33588] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 09:07:30.156500 2023] [:error] [pid 4666] [client 128.1.248.26:33588] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 09:10:45.942395 2023] [:error] [pid 4665] [client 54.37.79.75:35058] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 09:10:45.942431 2023] [:error] [pid 4665] [client 54.37.79.75:35058] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 09:10:45.942438 2023] [:error] [pid 4665] [client 54.37.79.75:35058] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 09:33:58.828879 2023] [:error] [pid 4665] [client 162.142.125.223:48108] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 09:33:58.828913 2023] [:error] [pid 4665] [client 162.142.125.223:48108] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 09:33:58.828921 2023] [:error] [pid 4665] [client 162.142.125.223:48108] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 09:33:59.227066 2023] [:error] [pid 4667] [client 162.142.125.223:42018] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 09:33:59.227096 2023] [:error] [pid 4667] [client 162.142.125.223:42018] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 09:33:59.227104 2023] [:error] [pid 4667] [client 162.142.125.223:42018] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 09:36:44.692847 2023] [:error] [pid 4666] [client 172.105.128.13:60120] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 09:36:44.692882 2023] [:error] [pid 4666] [client 172.105.128.13:60120] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 09:36:44.692890 2023] [:error] [pid 4666] [client 172.105.128.13:60120] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 10:04:35.188741 2023] [:error] [pid 4664] [client 198.235.24.136:61538] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 10:04:35.188778 2023] [:error] [pid 4664] [client 198.235.24.136:61538] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 10:04:35.188786 2023] [:error] [pid 4664] [client 198.235.24.136:61538] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 10:08:43.569058 2023] [:error] [pid 4663] [client 117.243.204.214:34356] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 10:08:43.569095 2023] [:error] [pid 4663] [client 117.243.204.214:34356] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 10:08:43.569103 2023] [:error] [pid 4663] [client 117.243.204.214:34356] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 10:15:35.333156 2023] [:error] [pid 5006] [client 94.102.61.10:39662] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 10:15:35.333190 2023] [:error] [pid 5006] [client 94.102.61.10:39662] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 10:15:35.333198 2023] [:error] [pid 5006] [client 94.102.61.10:39662] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 10:15:54.159031 2023] [:error] [pid 4666] [client 95.223.106.227:46783] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://l.instagram.com/
+[Fri Jun 23 10:15:54.159065 2023] [:error] [pid 4666] [client 95.223.106.227:46783] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://l.instagram.com/
+[Fri Jun 23 10:15:54.159074 2023] [:error] [pid 4666] [client 95.223.106.227:46783] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://l.instagram.com/
+[Fri Jun 23 10:16:04.112188 2023] [:error] [pid 4664] [client 95.223.106.227:60654] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/?fbclid=PAAab0Bokx9zQufEIcX9-xduBbNl-CPuWwQPfgFUlyLShvBileiKYSBDAeVQw_aem_th_AWR1NS1YMq0QERV7E8h8XlsuGZuApRzoZrhHRXEz3oukOqwiB3uhCucLZqv3kotSq5E
+[Fri Jun 23 10:16:04.112219 2023] [:error] [pid 4664] [client 95.223.106.227:60654] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/?fbclid=PAAab0Bokx9zQufEIcX9-xduBbNl-CPuWwQPfgFUlyLShvBileiKYSBDAeVQw_aem_th_AWR1NS1YMq0QERV7E8h8XlsuGZuApRzoZrhHRXEz3oukOqwiB3uhCucLZqv3kotSq5E
+[Fri Jun 23 10:16:04.112227 2023] [:error] [pid 4664] [client 95.223.106.227:60654] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/?fbclid=PAAab0Bokx9zQufEIcX9-xduBbNl-CPuWwQPfgFUlyLShvBileiKYSBDAeVQw_aem_th_AWR1NS1YMq0QERV7E8h8XlsuGZuApRzoZrhHRXEz3oukOqwiB3uhCucLZqv3kotSq5E
+[Fri Jun 23 10:16:07.620470 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/contact
+[Fri Jun 23 10:16:07.620505 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/contact
+[Fri Jun 23 10:16:07.620514 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/contact
+[Fri Jun 23 10:16:09.807779 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 10:16:09.807815 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 10:16:09.807831 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 10:16:11.795350 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 10:16:11.795385 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 10:16:11.795393 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 10:16:13.477550 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/impressum
+[Fri Jun 23 10:16:13.477588 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/impressum
+[Fri Jun 23 10:16:13.477596 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/impressum
+[Fri Jun 23 10:16:15.405420 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/
+[Fri Jun 23 10:16:15.405455 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/
+[Fri Jun 23 10:16:15.405464 2023] [:error] [pid 4667] [client 95.223.106.227:60653] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/
+[Fri Jun 23 10:20:50.027615 2023] [:error] [pid 5006] [client 94.102.61.10:59886] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 10:20:50.027649 2023] [:error] [pid 5006] [client 94.102.61.10:59886] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 10:20:50.027657 2023] [:error] [pid 5006] [client 94.102.61.10:59886] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 10:31:24.900672 2023] [:error] [pid 4665] [client 54.37.79.75:43914] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 10:31:24.900707 2023] [:error] [pid 4665] [client 54.37.79.75:43914] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 10:31:24.900715 2023] [:error] [pid 4665] [client 54.37.79.75:43914] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 10:49:58.309954 2023] [:error] [pid 4667] [client 162.221.192.26:57542] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 10:49:58.309991 2023] [:error] [pid 4667] [client 162.221.192.26:57542] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 10:49:58.309999 2023] [:error] [pid 4667] [client 162.221.192.26:57542] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 10:50:15.057389 2023] [:error] [pid 4663] [client 83.97.73.89:51330] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 10:50:15.057420 2023] [:error] [pid 4663] [client 83.97.73.89:51330] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 10:50:15.057441 2023] [:error] [pid 4663] [client 83.97.73.89:51330] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 11:02:16.517254 2023] [:error] [pid 4666] [client 54.37.79.75:43938] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 11:02:16.517288 2023] [:error] [pid 4666] [client 54.37.79.75:43938] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 11:02:16.517296 2023] [:error] [pid 4666] [client 54.37.79.75:43938] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 11:06:32.862320 2023] [:error] [pid 4664] [client 213.204.72.233:42287] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 11:06:32.862354 2023] [:error] [pid 4664] [client 213.204.72.233:42287] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 11:06:32.862363 2023] [:error] [pid 4664] [client 213.204.72.233:42287] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 11:25:32.729038 2023] [:error] [pid 5006] [client 78.138.99.182:34361] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/
+[Fri Jun 23 11:25:32.729072 2023] [:error] [pid 5006] [client 78.138.99.182:34361] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/
+[Fri Jun 23 11:25:32.729081 2023] [:error] [pid 5006] [client 78.138.99.182:34361] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/
+[Fri Jun 23 11:25:32.835078 2023] [:error] [pid 7799] [client 78.138.99.182:34377] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/contact
+[Fri Jun 23 11:25:32.835114 2023] [:error] [pid 7799] [client 78.138.99.182:34377] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/contact
+[Fri Jun 23 11:25:32.835122 2023] [:error] [pid 7799] [client 78.138.99.182:34377] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/contact
+[Fri Jun 23 11:27:56.927369 2023] [:error] [pid 4666] [client 78.138.99.182:47902] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/
+[Fri Jun 23 11:27:56.927399 2023] [:error] [pid 4666] [client 78.138.99.182:47902] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/
+[Fri Jun 23 11:27:56.927406 2023] [:error] [pid 4666] [client 78.138.99.182:47902] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/
+[Fri Jun 23 11:27:57.032467 2023] [:error] [pid 4665] [client 78.138.99.182:47913] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/contact
+[Fri Jun 23 11:27:57.032501 2023] [:error] [pid 4665] [client 78.138.99.182:47913] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/contact
+[Fri Jun 23 11:27:57.032509 2023] [:error] [pid 4665] [client 78.138.99.182:47913] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/contact
+[Fri Jun 23 11:49:45.371323 2023] [:error] [pid 4667] [client 54.37.79.75:48934] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 11:49:45.371359 2023] [:error] [pid 4667] [client 54.37.79.75:48934] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 11:49:45.371368 2023] [:error] [pid 4667] [client 54.37.79.75:48934] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 12:11:55.699909 2023] [:error] [pid 4665] [client 128.199.77.96:58330] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 12:11:55.699943 2023] [:error] [pid 4665] [client 128.199.77.96:58330] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 12:11:55.699951 2023] [:error] [pid 4665] [client 128.199.77.96:58330] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 12:26:56.281794 2023] [:error] [pid 4665] [client 83.97.73.89:43422] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 12:26:56.281828 2023] [:error] [pid 4665] [client 83.97.73.89:43422] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 12:26:56.281836 2023] [:error] [pid 4665] [client 83.97.73.89:43422] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 12:27:01.264707 2023] [:error] [pid 4664] [client 54.37.79.75:35138] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 12:27:01.264737 2023] [:error] [pid 4664] [client 54.37.79.75:35138] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 12:27:01.264745 2023] [:error] [pid 4664] [client 54.37.79.75:35138] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 12:40:25.631330 2023] [:error] [pid 4663] [client 78.138.99.182:55999] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/
+[Fri Jun 23 12:40:25.631364 2023] [:error] [pid 4663] [client 78.138.99.182:55999] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/
+[Fri Jun 23 12:40:25.631372 2023] [:error] [pid 4663] [client 78.138.99.182:55999] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/
+[Fri Jun 23 12:40:25.752483 2023] [:error] [pid 5006] [client 78.138.99.182:56019] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/contact
+[Fri Jun 23 12:40:25.752519 2023] [:error] [pid 5006] [client 78.138.99.182:56019] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/contact
+[Fri Jun 23 12:40:25.752528 2023] [:error] [pid 5006] [client 78.138.99.182:56019] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/contact
+[Fri Jun 23 12:42:56.085190 2023] [:error] [pid 7799] [client 64.62.197.199:31079] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 12:42:56.085224 2023] [:error] [pid 7799] [client 64.62.197.199:31079] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 12:42:56.085233 2023] [:error] [pid 7799] [client 64.62.197.199:31079] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 12:43:40.889362 2023] [:error] [pid 4666] [client 23.251.102.74:60656] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 12:43:40.889398 2023] [:error] [pid 4666] [client 23.251.102.74:60656] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 12:43:40.889406 2023] [:error] [pid 4666] [client 23.251.102.74:60656] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 12:46:59.572119 2023] [:error] [pid 4663] [client 217.149.187.250:34882] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 12:46:59.572154 2023] [:error] [pid 4663] [client 217.149.187.250:34882] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 12:46:59.572170 2023] [:error] [pid 4663] [client 217.149.187.250:34882] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 12:52:18.970409 2023] [:error] [pid 7799] [client 35.195.93.98:60258] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 12:52:18.970446 2023] [:error] [pid 7799] [client 35.195.93.98:60258] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 12:52:18.970454 2023] [:error] [pid 7799] [client 35.195.93.98:60258] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 13:08:35.831025 2023] [:error] [pid 4665] [client 54.37.79.75:58438] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 13:08:35.831059 2023] [:error] [pid 4665] [client 54.37.79.75:58438] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 13:08:35.831067 2023] [:error] [pid 4665] [client 54.37.79.75:58438] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 13:29:33.915152 2023] [:error] [pid 4663] [client 54.37.79.75:58566] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 13:29:33.915189 2023] [:error] [pid 4663] [client 54.37.79.75:58566] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 13:29:33.915197 2023] [:error] [pid 4663] [client 54.37.79.75:58566] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 14:12:33.728569 2023] [:error] [pid 5006] [client 78.138.99.182:9794] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/
+[Fri Jun 23 14:12:33.728605 2023] [:error] [pid 5006] [client 78.138.99.182:9794] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/
+[Fri Jun 23 14:12:33.728614 2023] [:error] [pid 5006] [client 78.138.99.182:9794] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/
+[Fri Jun 23 14:12:33.853156 2023] [:error] [pid 7799] [client 78.138.99.182:9813] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/contact
+[Fri Jun 23 14:12:33.853193 2023] [:error] [pid 7799] [client 78.138.99.182:9813] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/contact
+[Fri Jun 23 14:12:33.853201 2023] [:error] [pid 7799] [client 78.138.99.182:9813] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/contact
+[Fri Jun 23 14:13:05.784280 2023] [:error] [pid 4667] [client 139.59.61.110:57004] script '/srv/www/kilicit/ab2g.php' not found or unable to stat
+[Fri Jun 23 14:13:06.436465 2023] [:error] [pid 4663] [client 139.59.61.110:57018] script '/srv/www/kilicit/ab2h.php' not found or unable to stat
+[Fri Jun 23 14:13:10.640419 2023] [:error] [pid 4665] [client 139.59.61.110:41612] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 14:13:10.640451 2023] [:error] [pid 4665] [client 139.59.61.110:41612] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 14:13:10.640458 2023] [:error] [pid 4665] [client 139.59.61.110:41612] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 14:13:12.056371 2023] [:error] [pid 4663] [client 139.59.61.110:41646] script '/srv/www/kilicit/t4.php' not found or unable to stat
+[Fri Jun 23 14:13:14.009203 2023] [:error] [pid 4666] [client 139.59.61.110:41672] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 14:13:14.009243 2023] [:error] [pid 4666] [client 139.59.61.110:41672] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 14:13:14.009250 2023] [:error] [pid 4666] [client 139.59.61.110:41672] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 14:28:45.206754 2023] [:error] [pid 4667] [client 37.19.223.102:33893] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/
+[Fri Jun 23 14:28:45.206792 2023] [:error] [pid 4667] [client 37.19.223.102:33893] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/
+[Fri Jun 23 14:28:45.206800 2023] [:error] [pid 4667] [client 37.19.223.102:33893] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/
+[Fri Jun 23 14:28:45.367077 2023] [:error] [pid 4663] [client 37.19.223.102:33907] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: http://kilic.it/contact
+[Fri Jun 23 14:28:45.367123 2023] [:error] [pid 4663] [client 37.19.223.102:33907] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: http://kilic.it/contact
+[Fri Jun 23 14:28:45.367132 2023] [:error] [pid 4663] [client 37.19.223.102:33907] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: http://kilic.it/contact
+[Fri Jun 23 14:30:19.700102 2023] [:error] [pid 5006] [client 54.37.79.75:33676] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 14:30:19.700139 2023] [:error] [pid 5006] [client 54.37.79.75:33676] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 14:30:19.700147 2023] [:error] [pid 5006] [client 54.37.79.75:33676] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 15:45:47.385847 2023] [:error] [pid 7799] [client 83.97.73.89:37528] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 15:45:47.385883 2023] [:error] [pid 7799] [client 83.97.73.89:37528] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 15:45:47.385892 2023] [:error] [pid 7799] [client 83.97.73.89:37528] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 15:47:53.596834 2023] [:error] [pid 4666] [client 104.152.52.147:48074] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 15:47:53.596870 2023] [:error] [pid 4666] [client 104.152.52.147:48074] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 15:47:53.596879 2023] [:error] [pid 4666] [client 104.152.52.147:48074] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 16:02:31.327099 2023] [:error] [pid 5006] [client 54.37.79.75:53606] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 16:02:31.327135 2023] [:error] [pid 5006] [client 54.37.79.75:53606] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 16:02:31.327143 2023] [:error] [pid 5006] [client 54.37.79.75:53606] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 16:13:02.958212 2023] [:error] [pid 4665] [client 180.149.125.169:3709] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 16:13:02.958248 2023] [:error] [pid 4665] [client 180.149.125.169:3709] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 16:13:02.958256 2023] [:error] [pid 4665] [client 180.149.125.169:3709] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 16:22:51.572601 2023] [:error] [pid 4664] [client 165.22.178.154:58616] script '/srv/www/kilicit/Iya9.php' not found or unable to stat
+[Fri Jun 23 16:34:17.455714 2023] [:error] [pid 7799] [client 198.199.102.221:43846] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 16:34:17.455751 2023] [:error] [pid 7799] [client 198.199.102.221:43846] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 16:34:17.455759 2023] [:error] [pid 7799] [client 198.199.102.221:43846] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 16:38:31.015485 2023] [:error] [pid 4666] [client 34.76.158.233:41546] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 16:38:31.015519 2023] [:error] [pid 4666] [client 34.76.158.233:41546] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 16:38:31.015527 2023] [:error] [pid 4666] [client 34.76.158.233:41546] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 16:41:04.278749 2023] [:error] [pid 4665] [client 46.161.15.14:51534] script '/srv/www/kilicit/wp-login.php' not found or unable to stat
+[Fri Jun 23 16:48:12.523675 2023] [:error] [pid 4667] [client 34.212.226.146:13421] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 16:48:12.523711 2023] [:error] [pid 4667] [client 34.212.226.146:13421] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 16:48:12.523720 2023] [:error] [pid 4667] [client 34.212.226.146:13421] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 16:48:47.047544 2023] [:error] [pid 5006] [client 34.221.57.96:24324] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 16:48:47.047576 2023] [:error] [pid 5006] [client 34.221.57.96:24324] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 16:48:47.047585 2023] [:error] [pid 5006] [client 34.221.57.96:24324] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 16:48:53.618960 2023] [:error] [pid 7799] [client 54.149.43.127:43762] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 16:48:53.618992 2023] [:error] [pid 7799] [client 54.149.43.127:43762] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 16:48:53.619000 2023] [:error] [pid 7799] [client 54.149.43.127:43762] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 16:49:29.171897 2023] [:error] [pid 4665] [client 54.203.106.236:63009] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 16:49:29.171930 2023] [:error] [pid 4665] [client 54.203.106.236:63009] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 16:49:29.171939 2023] [:error] [pid 4665] [client 54.203.106.236:63009] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 16:50:37.346843 2023] [:error] [pid 4664] [client 35.164.7.155:37803] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 16:50:37.346879 2023] [:error] [pid 4664] [client 35.164.7.155:37803] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 16:50:37.346887 2023] [:error] [pid 4664] [client 35.164.7.155:37803] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 16:50:45.619821 2023] [:error] [pid 4667] [client 198.235.24.92:60716] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 16:50:45.619866 2023] [:error] [pid 4667] [client 198.235.24.92:60716] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 16:50:45.619874 2023] [:error] [pid 4667] [client 198.235.24.92:60716] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 16:51:11.402375 2023] [:error] [pid 4663] [client 54.200.232.241:35099] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 16:51:11.402408 2023] [:error] [pid 4663] [client 54.200.232.241:35099] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 16:51:11.402416 2023] [:error] [pid 4663] [client 54.200.232.241:35099] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 16:51:41.896653 2023] [:error] [pid 7799] [client 143.198.57.59:58463] script '/srv/www/kilicit/wordpress.php' not found or unable to stat
+[Fri Jun 23 16:51:42.103011 2023] [:error] [pid 7799] [client 143.198.57.59:58463] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 16:51:42.103044 2023] [:error] [pid 7799] [client 143.198.57.59:58463] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 16:51:42.103052 2023] [:error] [pid 7799] [client 143.198.57.59:58463] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 16:51:42.306010 2023] [:error] [pid 7799] [client 143.198.57.59:58463] script '/srv/www/kilicit/wp.php' not found or unable to stat
+[Fri Jun 23 16:51:42.509099 2023] [:error] [pid 7799] [client 143.198.57.59:58463] script '/srv/www/kilicit/bc.php' not found or unable to stat
+[Fri Jun 23 16:51:42.714136 2023] [:error] [pid 7799] [client 143.198.57.59:58463] script '/srv/www/kilicit/bk.php' not found or unable to stat
+[Fri Jun 23 16:51:42.918132 2023] [:error] [pid 7799] [client 143.198.57.59:58463] script '/srv/www/kilicit/backup.php' not found or unable to stat
+[Fri Jun 23 16:51:43.124082 2023] [:error] [pid 7799] [client 143.198.57.59:58463] script '/srv/www/kilicit/old.php' not found or unable to stat
+[Fri Jun 23 16:51:43.329753 2023] [:error] [pid 7799] [client 143.198.57.59:58463] script '/srv/www/kilicit/new.php' not found or unable to stat
+[Fri Jun 23 16:51:43.538042 2023] [:error] [pid 7799] [client 143.198.57.59:58463] script '/srv/www/kilicit/main.php' not found or unable to stat
+[Fri Jun 23 16:51:43.749828 2023] [:error] [pid 7799] [client 143.198.57.59:58463] script '/srv/www/kilicit/home.php' not found or unable to stat
+[Fri Jun 23 17:07:24.703828 2023] [:error] [pid 4667] [client 164.90.215.101:57494] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:07:24.703855 2023] [:error] [pid 4667] [client 164.90.215.101:57494] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:07:24.703863 2023] [:error] [pid 4667] [client 164.90.215.101:57494] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:07:24.743195 2023] [:error] [pid 4663] [client 164.90.215.101:57502] script '/srv/www/kilicit/upl.php' not found or unable to stat
+[Fri Jun 23 17:07:24.822455 2023] [:error] [pid 4664] [client 164.90.215.101:57540] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:07:24.822478 2023] [:error] [pid 4664] [client 164.90.215.101:57540] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:07:24.822486 2023] [:error] [pid 4664] [client 164.90.215.101:57540] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:07:24.877332 2023] [:error] [pid 4667] [client 164.90.215.101:57556] script '/srv/www/kilicit/1.php' not found or unable to stat
+[Fri Jun 23 17:08:15.929977 2023] [:error] [pid 7799] [client 88.80.189.218:33109] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:08:15.930016 2023] [:error] [pid 7799] [client 88.80.189.218:33109] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:08:15.930024 2023] [:error] [pid 7799] [client 88.80.189.218:33109] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:10:27.919132 2023] [:error] [pid 4664] [client 83.97.73.89:51948] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:10:27.919167 2023] [:error] [pid 4664] [client 83.97.73.89:51948] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:10:27.919176 2023] [:error] [pid 4664] [client 83.97.73.89:51948] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:13:07.643870 2023] [:error] [pid 4666] [client 54.37.79.75:37216] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:13:07.643902 2023] [:error] [pid 4666] [client 54.37.79.75:37216] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:13:07.643910 2023] [:error] [pid 4666] [client 54.37.79.75:37216] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:14:56.439649 2023] [:error] [pid 5006] [client 47.88.94.28:39272] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:14:56.439693 2023] [:error] [pid 5006] [client 47.88.94.28:39272] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:14:56.439701 2023] [:error] [pid 5006] [client 47.88.94.28:39272] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:22:03.990742 2023] [:error] [pid 4665] [client 95.223.106.227:32627] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:22:03.991067 2023] [:error] [pid 4665] [client 95.223.106.227:32627] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:22:03.991128 2023] [:error] [pid 4665] [client 95.223.106.227:32627] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:22:05.411047 2023] [:error] [pid 4664] [client 95.223.106.227:32628] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/
+[Fri Jun 23 17:22:05.411087 2023] [:error] [pid 4664] [client 95.223.106.227:32628] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/
+[Fri Jun 23 17:22:05.411097 2023] [:error] [pid 4664] [client 95.223.106.227:32628] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/
+[Fri Jun 23 17:22:06.667363 2023] [:error] [pid 4664] [client 95.223.106.227:32628] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/contact
+[Fri Jun 23 17:22:06.667402 2023] [:error] [pid 4664] [client 95.223.106.227:32628] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/contact
+[Fri Jun 23 17:22:06.667412 2023] [:error] [pid 4664] [client 95.223.106.227:32628] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/contact
+[Fri Jun 23 17:22:07.155747 2023] [:error] [pid 4664] [client 95.223.106.227:32628] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:22:07.155786 2023] [:error] [pid 4664] [client 95.223.106.227:32628] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:22:07.155805 2023] [:error] [pid 4664] [client 95.223.106.227:32628] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:22:07.870982 2023] [:error] [pid 4664] [client 95.223.106.227:32628] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:22:07.871014 2023] [:error] [pid 4664] [client 95.223.106.227:32628] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:22:07.871023 2023] [:error] [pid 4664] [client 95.223.106.227:32628] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:22:09.042093 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:22:09.042136 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:22:09.042144 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:22:10.861290 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/impressum
+[Fri Jun 23 17:22:10.861331 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/impressum
+[Fri Jun 23 17:22:10.861340 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/impressum
+[Fri Jun 23 17:22:12.901274 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:22:12.901314 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:22:12.901324 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:22:16.096023 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:22:16.096063 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:22:16.096073 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:22:16.937511 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/
+[Fri Jun 23 17:22:16.937543 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/
+[Fri Jun 23 17:22:16.937553 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/
+[Fri Jun 23 17:22:18.506751 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/contact
+[Fri Jun 23 17:22:18.506801 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/contact
+[Fri Jun 23 17:22:18.506810 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/contact
+[Fri Jun 23 17:22:19.108988 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:22:19.109027 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:22:19.109036 2023] [:error] [pid 4666] [client 95.223.106.227:32600] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:22:24.356961 2023] [:error] [pid 4667] [client 95.223.106.227:32601] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/
+[Fri Jun 23 17:22:24.357008 2023] [:error] [pid 4667] [client 95.223.106.227:32601] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/
+[Fri Jun 23 17:22:24.357017 2023] [:error] [pid 4667] [client 95.223.106.227:32601] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/
+[Fri Jun 23 17:22:30.121760 2023] [authz_core:error] [pid 5006] [client 95.223.106.227:32619] AH01630: client denied by server configuration: /srv/www/kilicit/notes/.php
+[Fri Jun 23 17:22:48.404381 2023] [:error] [pid 7799] [client 176.58.103.17:42570] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:22:48.404661 2023] [:error] [pid 7799] [client 176.58.103.17:42570] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:22:48.404735 2023] [:error] [pid 7799] [client 176.58.103.17:42570] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:23:34.809812 2023] [:error] [pid 4664] [client 95.223.106.227:37020] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:23:34.810073 2023] [:error] [pid 4664] [client 95.223.106.227:37020] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:23:34.810136 2023] [:error] [pid 4664] [client 95.223.106.227:37020] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:23:44.823075 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/
+[Fri Jun 23 17:23:44.823117 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/
+[Fri Jun 23 17:23:44.823127 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/
+[Fri Jun 23 17:23:46.185656 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/contact
+[Fri Jun 23 17:23:46.185959 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/contact
+[Fri Jun 23 17:23:46.186039 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/contact
+[Fri Jun 23 17:23:47.294718 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:47.294759 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:47.294769 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:47.768869 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/contact
+[Fri Jun 23 17:23:47.768902 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/contact
+[Fri Jun 23 17:23:47.768911 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/contact
+[Fri Jun 23 17:23:48.492526 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:23:48.492568 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:23:48.492577 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:23:49.568247 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:49.568286 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:49.568295 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:50.299770 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:23:50.299808 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:23:50.299818 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:23:51.283321 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:51.283360 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:51.283370 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:52.727443 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/contact
+[Fri Jun 23 17:23:52.727495 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/contact
+[Fri Jun 23 17:23:52.727504 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/contact
+[Fri Jun 23 17:23:53.412103 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/
+[Fri Jun 23 17:23:53.412143 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/
+[Fri Jun 23 17:23:53.412152 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/
+[Fri Jun 23 17:23:53.845814 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/contact
+[Fri Jun 23 17:23:53.845844 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/contact
+[Fri Jun 23 17:23:53.845854 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/contact
+[Fri Jun 23 17:23:54.521293 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:54.521334 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:54.521343 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:55.409651 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:23:55.409934 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:23:55.410008 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:23:56.463269 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:56.463310 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:56.463319 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:57.283434 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:23:57.283472 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:23:57.283482 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:23:59.708888 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:59.708927 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:23:59.708935 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:00.396170 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:00.396207 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:00.396216 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:01.486300 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:01.486611 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:01.486689 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:02.677378 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/contact
+[Fri Jun 23 17:24:02.677649 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/contact
+[Fri Jun 23 17:24:02.677723 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/contact
+[Fri Jun 23 17:24:03.711469 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/
+[Fri Jun 23 17:24:03.711510 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/
+[Fri Jun 23 17:24:03.711519 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/
+[Fri Jun 23 17:24:04.853744 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/contact
+[Fri Jun 23 17:24:04.853784 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/contact
+[Fri Jun 23 17:24:04.853794 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/contact
+[Fri Jun 23 17:24:05.712147 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/
+[Fri Jun 23 17:24:05.712199 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/
+[Fri Jun 23 17:24:05.712208 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/
+[Fri Jun 23 17:24:07.197462 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/contact
+[Fri Jun 23 17:24:07.197730 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/contact
+[Fri Jun 23 17:24:07.197800 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/contact
+[Fri Jun 23 17:24:08.148353 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:08.148393 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:08.148402 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:09.259368 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:09.259408 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:09.259416 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:12.858615 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:12.858891 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:12.858907 2023] [:error] [pid 4667] [client 95.223.106.227:60355] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:25.293718 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:25.293761 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:25.293770 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:26.920968 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.921236 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.921308 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.956945 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Warning:  Missing argument 1 for getNavigation(), called in /srv/www/kilicit/notes/note.php on line 85 and defined in /srv/www/kilicit/php/elements.php on line 39, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957037 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957085 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 117, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957132 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 118, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957178 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 119, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957224 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 120, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957269 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 122, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957315 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957361 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 129, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957406 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 144, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957452 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 145, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957497 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 146, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957543 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 147, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957588 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 151, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957634 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:26.957679 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 158, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:29.871647 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:29.871687 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:29.871696 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:30.968920 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:30.968958 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:30.968967 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.004522 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Warning:  Missing argument 1 for getNavigation(), called in /srv/www/kilicit/notes/note.php on line 85 and defined in /srv/www/kilicit/php/elements.php on line 39, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.004620 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.004669 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 117, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.004716 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 118, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.004762 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 119, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.004808 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 120, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.004853 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 122, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.004899 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.004945 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 129, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.004991 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 144, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.005036 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 145, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.005087 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 146, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.005133 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 147, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.005178 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 151, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.005224 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:31.005232 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 158, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:32.121043 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:32.121082 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:32.121091 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:24:32.703360 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:32.703392 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:24:32.703401 2023] [:error] [pid 4664] [client 95.223.106.227:32692] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:03.893159 2023] [:error] [pid 5006] [client 95.223.106.227:60409] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:03.893422 2023] [:error] [pid 5006] [client 95.223.106.227:60409] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:03.893488 2023] [:error] [pid 5006] [client 95.223.106.227:60409] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:05.401350 2023] [:error] [pid 5006] [client 95.223.106.227:60409] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/contact
+[Fri Jun 23 17:25:05.401387 2023] [:error] [pid 5006] [client 95.223.106.227:60409] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/contact
+[Fri Jun 23 17:25:05.401397 2023] [:error] [pid 5006] [client 95.223.106.227:60409] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/contact
+[Fri Jun 23 17:25:14.063189 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:14.063229 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:14.063238 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.099410 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.099448 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.099457 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.134742 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Warning:  Missing argument 1 for getNavigation(), called in /srv/www/kilicit/notes/note.php on line 85 and defined in /srv/www/kilicit/php/elements.php on line 39, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.134854 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.134897 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 117, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.134938 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 118, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.134978 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 119, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.135017 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 120, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.135056 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 122, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.135096 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.135136 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 129, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.135175 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 144, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.135214 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 145, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.135254 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 146, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.135293 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 147, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.135300 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 151, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.135305 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:16.135309 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 158, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:17.820914 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/note?id=123
+[Fri Jun 23 17:25:17.820953 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/note?id=123
+[Fri Jun 23 17:25:17.820962 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/note?id=123
+[Fri Jun 23 17:25:19.754234 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.754284 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.754292 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.789825 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Warning:  Missing argument 1 for getNavigation(), called in /srv/www/kilicit/notes/note.php on line 85 and defined in /srv/www/kilicit/php/elements.php on line 39, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.789931 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.789979 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 117, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.790026 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 118, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.790071 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 119, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.790117 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 120, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.790162 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 122, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.790208 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.790253 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 129, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.790299 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 144, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.790344 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 145, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.790389 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 146, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.790434 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 147, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.790479 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 151, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.790525 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:19.790570 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 158, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:25:21.167353 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/note?id=312312
+[Fri Jun 23 17:25:21.167399 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/note?id=312312
+[Fri Jun 23 17:25:21.167407 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/note?id=312312
+[Fri Jun 23 17:25:22.789544 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:22.789815 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:22.789881 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:26.476180 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:26.476216 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:26.476225 2023] [:error] [pid 7799] [client 95.223.106.227:60364] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:31.770148 2023] [:error] [pid 4667] [client 95.223.106.227:46982] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:31.770419 2023] [:error] [pid 4667] [client 95.223.106.227:46982] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:31.770485 2023] [:error] [pid 4667] [client 95.223.106.227:46982] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:36.221393 2023] [:error] [pid 4667] [client 95.223.106.227:46982] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:36.221426 2023] [:error] [pid 4667] [client 95.223.106.227:46982] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:36.221436 2023] [:error] [pid 4667] [client 95.223.106.227:46982] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:40.547575 2023] [:error] [pid 4667] [client 95.223.106.227:46982] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:40.547607 2023] [:error] [pid 4667] [client 95.223.106.227:46982] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:40.547615 2023] [:error] [pid 4667] [client 95.223.106.227:46982] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:46.179870 2023] [:error] [pid 4665] [client 95.223.106.227:60373] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:46.180126 2023] [:error] [pid 4665] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:46.180193 2023] [:error] [pid 4665] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:52.510767 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:52.511020 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:52.511085 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001074 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Warning:  Missing argument 1 for getNavigation(), called in /srv/www/kilicit/shorts/short.php on line 85 and defined in /srv/www/kilicit/php/elements.php on line 39, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001192 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001242 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 117, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001289 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 118, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001335 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 119, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001381 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 120, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001426 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 122, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001472 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001518 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 129, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001564 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 144, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001609 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 145, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001655 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 146, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001700 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 147, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001745 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 151, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001791 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:25:53.001844 2023] [:error] [pid 4664] [client 95.223.106.227:60650] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 158, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:26:00.222716 2023] [:error] [pid 4663] [client 95.223.106.227:64701] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:26:23.031400 2023] [:error] [pid 7799] [client 40.77.167.194:17728] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:26:23.031436 2023] [:error] [pid 7799] [client 40.77.167.194:17728] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:26:23.031445 2023] [:error] [pid 7799] [client 40.77.167.194:17728] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:26:23.140535 2023] [:error] [pid 7799] [client 40.77.167.194:17728] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:26:23.140642 2023] [:error] [pid 7799] [client 40.77.167.194:17728] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:26:23.140693 2023] [:error] [pid 7799] [client 40.77.167.194:17728] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:26:24.266195 2023] [:error] [pid 4667] [client 40.77.167.201:48970] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:26:24.266445 2023] [:error] [pid 4667] [client 40.77.167.201:48970] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:26:24.266512 2023] [:error] [pid 4667] [client 40.77.167.201:48970] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:26:27.584263 2023] [:error] [pid 4665] [client 40.77.167.145:59607] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:26:27.584512 2023] [:error] [pid 4665] [client 40.77.167.145:59607] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:26:27.584576 2023] [:error] [pid 4665] [client 40.77.167.145:59607] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:26:27.671446 2023] [:error] [pid 4665] [client 40.77.167.145:59607] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:26:27.671538 2023] [:error] [pid 4665] [client 40.77.167.145:59607] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:26:27.671583 2023] [:error] [pid 4665] [client 40.77.167.145:59607] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:26:40.901608 2023] [:error] [pid 4664] [client 95.223.106.227:47017] script '/srv/www/kilicit/movielist.php' not found or unable to stat
+[Fri Jun 23 17:26:55.019025 2023] [authz_core:error] [pid 4663] [client 95.223.106.227:64683] AH01630: client denied by server configuration: /srv/www/kilicit/project/movielist/.php
+[Fri Jun 23 17:26:58.027276 2023] [:error] [pid 4663] [client 95.223.106.227:64683] PHP Notice:  A session had already been started - ignoring session_start() in /srv/www/kilicit/project/movielist/search/home.php on line 8
+[Fri Jun 23 17:27:10.473820 2023] [:error] [pid 4667] [client 24.199.98.33:36714] script '/srv/www/kilicit/aaa9.php' not found or unable to stat
+[Fri Jun 23 17:27:11.406029 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Warning:  Missing argument 1 for getNavigation(), called in /srv/www/kilicit/shorts/short.php on line 85 and defined in /srv/www/kilicit/php/elements.php on line 39, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.406310 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.406387 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 117, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.406437 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 118, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.406483 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 119, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.406529 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 120, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.406575 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 122, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.406663 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.406709 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 129, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.406755 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 144, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.406801 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 145, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.406846 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 146, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.406892 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 147, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.406942 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 151, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.406988 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:11.407033 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 158, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:12.275662 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/short?id=23731
+[Fri Jun 23 17:27:12.275896 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/short?id=23731
+[Fri Jun 23 17:27:12.275952 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/short?id=23731
+[Fri Jun 23 17:27:13.972775 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:13.973026 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:13.973094 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.447791 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Warning:  Missing argument 1 for getNavigation(), called in /srv/www/kilicit/shorts/short.php on line 85 and defined in /srv/www/kilicit/php/elements.php on line 39, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.447907 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.447958 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 117, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.448005 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 118, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.448051 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 119, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.448097 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 120, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.448142 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 122, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.448188 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.448234 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 129, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.448280 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 144, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.448325 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 145, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.448371 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 146, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.448416 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 147, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.448462 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 151, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.448508 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:14.448554 2023] [:error] [pid 20128] [client 95.223.106.227:64647] PHP Notice:  Undefined variable: active in /srv/www/kilicit/php/elements.php on line 158, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:27:21.841174 2023] [:error] [pid 4665] [client 95.223.106.227:60370] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:27:25.078003 2023] [:error] [pid 7799] [client 24.199.98.33:58472] script '/srv/www/kilicit/aab8.php' not found or unable to stat
+[Fri Jun 23 17:27:37.037779 2023] [:error] [pid 4666] [client 24.199.98.33:48918] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:27:37.037817 2023] [:error] [pid 4666] [client 24.199.98.33:48918] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:27:37.037827 2023] [:error] [pid 4666] [client 24.199.98.33:48918] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:27:51.738858 2023] [:error] [pid 4667] [client 35.227.62.178:34000] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:28:09.599168 2023] [:error] [pid 5006] [client 95.223.106.227:60411] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:28:15.931669 2023] [:error] [pid 5006] [client 95.223.106.227:60411] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/short?id=24784
+[Fri Jun 23 17:28:15.931710 2023] [:error] [pid 5006] [client 95.223.106.227:60411] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/short?id=24784
+[Fri Jun 23 17:28:15.931719 2023] [:error] [pid 5006] [client 95.223.106.227:60411] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/short?id=24784
+[Fri Jun 23 17:29:00.852723 2023] [:error] [pid 7799] [client 95.223.106.227:60628] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:29:39.607887 2023] [:error] [pid 4665] [client 95.223.106.227:60412] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:30:21.285185 2023] [:error] [pid 4664] [client 95.223.106.227:60356] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:30:43.113453 2023] [:error] [pid 5006] [client 95.223.106.227:64685] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:30:58.856154 2023] [:error] [pid 7799] [client 95.223.106.227:47003] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:32:49.027621 2023] [:error] [pid 4666] [client 95.223.106.227:60404] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:33:10.815258 2023] [:error] [pid 4664] [client 95.223.106.227:60363] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:33:50.717785 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:33:55.953332 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  A session had already been started - ignoring session_start() in /srv/www/kilicit/project/movielist/search/home.php on line 8, referer: https://kilic.it/project/movielist/reglog/login
+[Fri Jun 23 17:33:59.793772 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
+[Fri Jun 23 17:33:59.793812 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
+[Fri Jun 23 17:33:59.793821 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
+[Fri Jun 23 17:34:01.027004 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/
+[Fri Jun 23 17:34:01.027052 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/
+[Fri Jun 23 17:34:01.027061 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/
+[Fri Jun 23 17:34:01.626225 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/contact
+[Fri Jun 23 17:34:01.626487 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/contact
+[Fri Jun 23 17:34:01.626560 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/contact
+[Fri Jun 23 17:34:02.282858 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:34:02.283124 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:34:02.283195 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:34:03.170027 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:34:03.170279 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:34:03.170347 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:34:03.657166 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:34:03.657283 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:34:03.657335 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:34:03.891066 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:34:03.891098 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:34:03.891107 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Fri Jun 23 17:34:04.598487 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:34:04.598527 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:34:04.598536 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Fri Jun 23 17:34:06.466351 2023] [:error] [pid 5006] [client 95.223.106.227:60373] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:34:59.575554 2023] [:error] [pid 4663] [client 95.223.106.227:64666] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:35:12.198402 2023] [:error] [pid 7799] [client 95.223.106.227:60389] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
+[Fri Jun 23 17:36:22.812167 2023] [:error] [pid 4665] [client 95.223.106.227:60407] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 53

@@ -31,7 +31,7 @@ if(isset($_POST["note"])) {
     $id = $_POST["search"];
 
     if(strlen($id > 1 && $id < 9999999)) {
-        header("Location: https://kilic.it/web/notes/note?id=$id");
+        header("Location: https://kilic.it/notes/note?id=$id");
     }
 }
 
