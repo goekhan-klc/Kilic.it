@@ -7,6 +7,7 @@ body {
     background: #191919;
     background-size: 800% 800%;
     color: white;
+    margin: 0px;
 }
 
 
@@ -14,49 +15,64 @@ body {
 /*------------------Div Areas----------------*/
 
 .header {
-    overflow: hidden;
-    position: fixed;
-    top: 0px;
-    width: 99%;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  background: rgb(41,41,41);
+  background: linear-gradient(180deg, rgba(41,41,41,1) 25%, rgba(25,25,25,1) 100%);
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .header {
+    background: transparent;
+  }
 }
 
 .main {
-    position: absolute;
-    margin-top: 30px;
-    width: 99%;
-    text-align: center;
+  display: table;
+  position: absolute;
+  margin-top: 30px;
+  width: 99%;
+  text-align: center;
+  justify-items: center;
+}
+
+@media (max-width: 480px) {
+  .main {
+    width: 95%;
+  }
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 200px 1fr; /* Adjust the width of the sidebar as needed */
-    grid-gap: 20px; /* Adjust the gap between the sidebar and main page as needed */
+    grid-template-columns: 200px 1fr;
+    grid-gap: 20px;
 }
 
-.grid-main {
-
-}
-
-.grid-sidebar {
-
-}
-
-.footer {
-    position: fixed;
-    width: 99%;
-    bottom: 10px;
+@media (max-width: 480px) {
+  .grid-container {
+    width: 95%;
     justify-content: center;
-    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    display: none;
+  }
 }
 
 /*------------------Navigation---------------*/
 
-li {
+
+.pcmenu li {
     display: inline;
 
 }
 
-li a{
+.pcmenu li a{
     padding: 10px;
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -67,22 +83,22 @@ li a{
 }
 
 
-li a:hover {
+.pcmenu li a:hover {
     color: #b844f6;
     right: 0;
     text-decoration: none;
 }
 
-li a:hover:after {
+.pcmenu li a:hover:after {
     border-color: #b844f6;
     right: 0;
 }
 
-li a:hover:after {
+.pcmenu li a:hover:after {
     right: 0;
     }
 
-li a:after {
+.pcmenu li a:after {
     border-radius: 1em;
     border-top: .1em solid #b844f6;
     content: "";
@@ -94,25 +110,379 @@ li a:after {
     border-color .4s ease-out;
 }
 
-li a.active {
+.pcmenu li a.active {
     color: #b844f6;
     text-decoration: underline solid #b844f6 2px;
     text-underline-offset: 8px;
 }
 
-.footerNav {
-    float: right;
-    justify-self: right;
-    justify-content: right;
-    right: 20px;
+.mobilemenu-overlay {
+  display: none;
 }
 
-.footerText {
-    display: grid;
-    font-size: 25px;
-    text-align: center;
-    bottom: 1px;
+.mobilemenu-items {
+  display: none;
 }
+
+.hamburger-menu {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  
+  .pcmenu {
+    display: none;
+  }
+
+  .mobilemenu {
+    display: block;
+  }
+
+  .hamburger-menu {
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    Z-index: 900;
+    cursor: pointer;
+  }
+
+  .mobilemenu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    background-color: rgb(38, 38, 38);
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+
+  .mobilemenu-overlay.show {
+    display: block;
+    opacity: 1;
+  }
+
+  .mobilemenu-items {
+    display: none;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+    padding: 20px;
+    box-sizing: border-box;
+    Z-index: 10;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .mobilemenu-items li {
+    padding: 5px;
+    font-size: 50px;
+    position: relative;
+    text-decoration: none;
+  }
+
+  .mobilemenu .active {
+    color: #c497fb;
+  }
+
+  .mobilemenu-items ul {
+    list-style: none;
+    text-align: right;
+  }
+
+  .mobilemenu-items a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .mobilemenu-items.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*-----------------Login/Register-----------*/
+
+.loginForm {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #2d2d30;
+    color: #d2d2d2;
+  }
+
+  @media (max-width: 480px) {
+    .formInput {
+      width: 70%;
+    }
+  }
+  
+  .formInput:hover {
+    box-shadow: 0px 0px 5px #5d5d5e(72, 71, 71);
+    border: 1px solid #c497fb;
+  }
+  
+  .formSubmit {
+    padding: 10px 20px;
+    background-color: #2d2d30;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #2d2d30;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .formSubmit:hover {
+    border: 2px solid #c497fb;
+  }
+
+  .settingsButton {
+    background-color: #2d2d30;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .aa {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 19px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+  }
+  
+  .alert {
+    color: #FF0000;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .logoutDiv {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .spinner {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #2d2d30;
+    animation: spin 1s infinite linear;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+/*-----------------Notizen------------------*/
+
+
+.noteAreaContainer {
+  width: 100%;
+}
+
+.noteCreateForm {
+  width: 100%;
+}
+
+.noteArea {
+  width: 100%;
+  padding: 10px;
+  height: 150px;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  background-color: #333232;
+  color: white;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+@media (max-width: 480px) {
+  .noteArea {
+    width: 85%;
+  }
+}
+
+.noteButton {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 2px solid #333;
+  cursor: pointer;
+  }
+
+  .noteButton:hover {
+    border: 2px solid #c497fb;
+  }
+
+  .noteButton:active {
+    background-color: #222;
+    border: 2px solid #ffffff;
+  }
+
+  .showNoteDiv {
+    background-color: #2d2d30;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    min-height: 40%;
+    color: white;
+    overflow-x: auto;
+    width: 900px;
+    text-align: left;
+  }
+
+  @media (max-width: 480px) {
+    .showNoteDiv {
+      width: 85%;
+    }
+  }
+
+  .shareNote {
+    padding: 8px;
+    color: white;
+  }
+
+  .shareNote a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .informationBox {
+    display: none;
+    background-color: rgb(145, 255, 145);
+    color: rgb(0, 113, 0);
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    animation: fadeInOut 6s ease;
+    margin-top: 50%;
+  }
+
+  @keyframes fadeInOut {
+      0% {
+          opacity: 0;
+      }
+      10% {
+          opacity: 1;
+      }
+      90% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 0;
+      }
+  }
+
+
+/*-----------------Shorts--------------------*/
+
+.showShortDiv {
+  display: block;
+  background-color: #2d2d30;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 10px;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 16px;
+  color: white;
+  max-width: 85%;
+  height: auto;
+  overflow-x: auto;
+  text-align: left;
+}
+
+.showLinkDiv {
+  display: block;
+  background-color: #2d2d30;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 10px;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 16px;
+  color: white;
+  max-width: 85%;
+  height: auto;
+  overflow-x: auto;
+  text-align: left;
+}
+
+.shortRedirect {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .shortRedirect {
+    width: 80%;
+    font-size: 20px;
+  }
+}
+
 
 /*------------------Classes------------------*/
 
@@ -163,12 +533,15 @@ li a.active {
 
 /*-------------Socials-------------*/
 
-.socialBoxes{
+.socialBoxes {
     position: relative;
+    display: table;
     width: 99%;
     justify-content: center;
     align-items: center;
+    justify-items: center;
 }
+
 
 
 .socialButton {
@@ -193,6 +566,12 @@ li a.active {
     -webkit-user-select: none;
     touch-action: manipulation;
     will-change: transform;
+}
+
+@media (max-width: 480px) {
+  .socialButton {
+    width: 90%;
+  }
 }
 
 .socialButton:hover {
@@ -248,6 +627,27 @@ li a.active {
     padding: 10px;
     border-radius: 4px;
     border: transparent 2px;
+}
+
+.text {
+  display: table;
+  position: relative;
+  width: 70%;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+
+  padding: 10px;
+  border-radius: 4px;
+  border: transparent 2px;
+}
+
+@media (max-width:480px) {
+  .text {
+    width: 100%;
+    font-size: 18px;
+  }
 }
 
 
