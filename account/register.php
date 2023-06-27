@@ -11,7 +11,7 @@ if($setting["maintenance"]) {
   header("Location: ../account/maintenance");
 }
 
-if (!empty($_SESSION["id"])) {
+if (isset($_SESSION["id"])) {
   header("Location: ../index");
 }
 
@@ -57,15 +57,15 @@ if (isset($_POST["submit"])) {
             <h1 class="title1">Registrierung</h1>
             <p style="margin-top:50px"></p>
 
-                <form class="loginForm" action="register" method="post" autocomplete="on">
+            <form class="loginForm" action="register" method="post" autocomplete="on">
                 <label for="name">Name:</label>
-                <input class="formInput" type="text" name="name" id="name" required value=""><br>
+                  <input class="formInput" type="text" name="name" id="name" required value=""><br>
                 <label for="email">Email:</label>
-                <input class="formInput" type="email" name="mail" id="mail" required value=""><br>
+                  <input class="formInput" type="email" name="mail" id="mail" required value=""><br>
                 <label for="password">Passwort:</label>
-                <input class="formInput" type="password" name="password" id="password" required value=""><br>
+                 <input class="formInput" type="password" name="password" id="password" required value=""><br>
                 <label for="confirmpassword">Passwort bestätigen:</label>
-                <input class="formInput" type="password" name="confirmpassword" id="confirmpassword" required value=""><br>
+                  <input class="formInput" type="password" name="confirmpassword" id="confirmpassword" required value=""><br>
                 <button class="formSubmit" type="submit" name="submit">Registrieren</button>
             </form>
             <br>
