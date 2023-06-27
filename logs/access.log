@@ -13843,6 +13843,7 @@
 95.223.106.227 - - [23/Jun/2023:17:36:42 +0000] "-" 408 152 "-" "-"
 95.223.106.227 - - [23/Jun/2023:17:37:27 +0000] "-" 408 152 "-" "-"
 95.223.106.227 - - [23/Jun/2023:17:37:27 +0000] "-" 408 152 "-" "-"
+<<<<<<< HEAD
 40.77.167.194 - - [23/Jun/2023:17:40:54 +0000] "GET /contact HTTP/1.1" 200 5386 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/103.0.5060.134 Safari/537.36"
 40.77.167.194 - - [23/Jun/2023:17:40:55 +0000] "GET /shorts/index HTTP/1.1" 200 5643 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/103.0.5060.134 Safari/537.36"
 40.77.167.145 - - [23/Jun/2023:17:40:58 +0000] "GET /notes/index HTTP/1.1" 200 5681 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/103.0.5060.134 Safari/537.36"
@@ -14666,3 +14667,5 @@
 95.223.106.227 - - [25/Jun/2023:21:20:16 +0000] "GET / HTTP/1.1" 500 4661 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58"
 95.223.106.227 - - [25/Jun/2023:21:20:17 +0000] "GET / HTTP/1.1" 500 4661 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58"
 95.223.106.227 - - [25/Jun/2023:21:20:38 +0000] "-" 408 323 "-" "-"
+=======
+>>>>>>> fb3ca18ce3e643a179cfcadaef1598fdf4e8af0f

@@ -7970,6 +7970,7 @@
 [Fri Jun 23 17:34:59.575554 2023] [:error] [pid 4663] [client 95.223.106.227:64666] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
 [Fri Jun 23 17:35:12.198402 2023] [:error] [pid 7799] [client 95.223.106.227:60389] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 55
 [Fri Jun 23 17:36:22.812167 2023] [:error] [pid 4665] [client 95.223.106.227:60407] PHP Notice:  Undefined variable: text in /srv/www/kilicit/s.php on line 53
+<<<<<<< HEAD
 [Fri Jun 23 17:40:54.079410 2023] [:error] [pid 5006] [client 40.77.167.194:15912] PHP Notice:  Undefined index: login in /srv/www/kilicit/php/elements.php on line 48
 [Fri Jun 23 17:40:54.079660 2023] [:error] [pid 5006] [client 40.77.167.194:15912] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 124
 [Fri Jun 23 17:40:54.079729 2023] [:error] [pid 5006] [client 40.77.167.194:15912] PHP Notice:  Undefined variable: loggedin in /srv/www/kilicit/php/elements.php on line 153
@@ -9156,3 +9157,5 @@
 [Sun Jun 25 21:20:17.982257 2023] [:error] [pid 936] [client 95.223.106.227:9825] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /srv/www/kilicit/php/config.php on line 8
 [Sun Jun 25 21:20:17.982332 2023] [:error] [pid 936] [client 95.223.106.227:9825] PHP Notice:  Trying to get property of non-object in /srv/www/kilicit/php/config.php on line 9
 [Sun Jun 25 21:20:17.982372 2023] [:error] [pid 936] [client 95.223.106.227:9825] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /srv/www/kilicit/php/config.php:15\nStack trace:\n#0 /srv/www/kilicit/index.php(3): require()\n#1 {main}\n  thrown in /srv/www/kilicit/php/config.php on line 15
+=======
+>>>>>>> fb3ca18ce3e643a179cfcadaef1598fdf4e8af0f

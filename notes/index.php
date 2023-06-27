@@ -17,7 +17,7 @@ if(isset($_POST["note"])) {
     $stmt->bind_param("sss", $id, $text1, $timestamp);
     
     if ($stmt->execute()) {
-        if(isset($_FILES["file"])) {
+        if(!isset($_FILES["file"])) {
             header("Refresh: 0.1; url=note?id=" . $id);
         }
     } else {
@@ -88,9 +88,12 @@ if(isset($_POST["note"])) {
             <div class="noteAreaContainer">
                 <label for="note">Erstelle eine neue Notiz</label>
                 <textarea class="noteArea" placeholder="Schreibe hier..." name="note" id="note" required></textarea>
+<<<<<<< HEAD
                 <br> <br>
                 <label for="files">Füge Dateien zu deiner Notiz hinzu</label>
                 <input type="file" id="file" name="file" multiple></input>
+=======
+>>>>>>> fb3ca18ce3e643a179cfcadaef1598fdf4e8af0f
             </div>
 
             <br>
