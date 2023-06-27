@@ -9159,3 +9159,68 @@
 [Sun Jun 25 21:20:17.982372 2023] [:error] [pid 936] [client 95.223.106.227:9825] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /srv/www/kilicit/php/config.php:15\nStack trace:\n#0 /srv/www/kilicit/index.php(3): require()\n#1 {main}\n  thrown in /srv/www/kilicit/php/config.php on line 15
 =======
 >>>>>>> fb3ca18ce3e643a179cfcadaef1598fdf4e8af0f
+[Tue Jun 27 21:59:57.378171 2023] [php:warn] [pid 5041] [client 104.164.173.132:3537] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 21:59:57.379024 2023] [php:warn] [pid 5041] [client 104.164.173.132:3537] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 21:59:57.379081 2023] [php:warn] [pid 5041] [client 104.164.173.132:3537] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 21:59:57.613654 2023] [php:warn] [pid 5041] [client 104.164.173.132:3537] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 21:59:57.613797 2023] [php:warn] [pid 5041] [client 104.164.173.132:3537] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 21:59:57.613845 2023] [php:warn] [pid 5041] [client 104.164.173.132:3537] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 21:59:58.321697 2023] [php:warn] [pid 5043] [client 104.164.173.132:48005] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 21:59:58.322549 2023] [php:warn] [pid 5043] [client 104.164.173.132:48005] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 21:59:58.322671 2023] [php:warn] [pid 5043] [client 104.164.173.132:48005] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 21:59:58.324108 2023] [php:warn] [pid 5042] [client 104.164.173.132:63681] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 21:59:58.324196 2023] [php:warn] [pid 5042] [client 104.164.173.132:63681] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 21:59:58.324259 2023] [php:warn] [pid 5042] [client 104.164.173.132:63681] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 21:59:58.324895 2023] [php:warn] [pid 5044] [client 104.164.173.132:54373] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 21:59:58.324980 2023] [php:warn] [pid 5044] [client 104.164.173.132:54373] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 21:59:58.325032 2023] [php:warn] [pid 5044] [client 104.164.173.132:54373] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 21:59:58.328551 2023] [php:warn] [pid 5045] [client 104.164.173.132:44739] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 21:59:58.328641 2023] [php:warn] [pid 5045] [client 104.164.173.132:44739] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 21:59:58.328709 2023] [php:warn] [pid 5045] [client 104.164.173.132:44739] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 21:59:58.628691 2023] [php:error] [pid 5043] [client 104.164.173.132:48005] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getNavigation(), 0 passed in /var/www/kilicit/account/register.php on line 51 and exactly 1 expected in /var/www/kilicit/php/elements.php:39\nStack trace:\n#0 /var/www/kilicit/account/register.php(51): getNavigation()\n#1 {main}\n  thrown in /var/www/kilicit/php/elements.php on line 39
+[Tue Jun 27 21:59:58.779634 2023] [php:warn] [pid 5043] [client 51.81.167.146:34258] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 21:59:58.779669 2023] [php:warn] [pid 5043] [client 51.81.167.146:34258] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 21:59:58.779708 2023] [php:warn] [pid 5043] [client 51.81.167.146:34258] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 21:59:58.893830 2023] [php:warn] [pid 5046] [client 104.164.173.132:29269] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 21:59:58.893984 2023] [php:warn] [pid 5046] [client 104.164.173.132:29269] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 21:59:58.894083 2023] [php:warn] [pid 5046] [client 104.164.173.132:29269] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 21:59:59.119794 2023] [php:warn] [pid 5046] [client 104.164.173.132:29269] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 21:59:59.119845 2023] [php:warn] [pid 5046] [client 104.164.173.132:29269] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 21:59:59.119857 2023] [php:warn] [pid 5046] [client 104.164.173.132:29269] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 21:59:59.273521 2023] [php:warn] [pid 5046] [client 104.164.173.132:29269] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 21:59:59.273648 2023] [php:warn] [pid 5046] [client 104.164.173.132:29269] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 21:59:59.273709 2023] [php:warn] [pid 5046] [client 104.164.173.132:29269] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 21:59:59.420537 2023] [php:warn] [pid 5043] [client 104.164.173.132:53407] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 21:59:59.420579 2023] [php:warn] [pid 5043] [client 104.164.173.132:53407] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 21:59:59.420590 2023] [php:warn] [pid 5043] [client 104.164.173.132:53407] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 21:59:59.843461 2023] [php:warn] [pid 5047] [client 104.164.173.132:25345] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 21:59:59.843612 2023] [php:warn] [pid 5047] [client 104.164.173.132:25345] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 21:59:59.843703 2023] [php:warn] [pid 5047] [client 104.164.173.132:25345] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 22:00:01.615954 2023] [php:warn] [pid 5042] [client 104.164.173.132:34223] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 22:00:01.615995 2023] [php:warn] [pid 5042] [client 104.164.173.132:34223] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 22:00:01.616041 2023] [php:warn] [pid 5042] [client 104.164.173.132:34223] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 22:00:28.907829 2023] [php:warn] [pid 5041] [client 95.223.106.227:23652] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 22:00:28.908152 2023] [php:warn] [pid 5041] [client 95.223.106.227:23652] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 22:00:28.908232 2023] [php:warn] [pid 5041] [client 95.223.106.227:23652] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 22:00:30.609976 2023] [php:warn] [pid 5046] [client 195.211.77.140:58576] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 22:00:30.610272 2023] [php:warn] [pid 5046] [client 195.211.77.140:58576] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 22:00:30.610339 2023] [php:warn] [pid 5046] [client 195.211.77.140:58576] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 22:00:30.662274 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/
+[Tue Jun 27 22:00:30.662315 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/
+[Tue Jun 27 22:00:30.662328 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/
+[Tue Jun 27 22:00:31.665461 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48
+[Tue Jun 27 22:00:31.665503 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124
+[Tue Jun 27 22:00:31.665514 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153
+[Tue Jun 27 22:00:32.302270 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/
+[Tue Jun 27 22:00:32.302314 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/
+[Tue Jun 27 22:00:32.302327 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/
+[Tue Jun 27 22:00:32.714271 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/contact
+[Tue Jun 27 22:00:32.714434 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/contact
+[Tue Jun 27 22:00:32.714489 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/contact
+[Tue Jun 27 22:00:33.179251 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/notes/index
+[Tue Jun 27 22:00:33.179401 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/notes/index
+[Tue Jun 27 22:00:33.179460 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/notes/index
+[Tue Jun 27 22:00:34.425559 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined array key "login" in /var/www/kilicit/php/elements.php on line 48, referer: https://kilic.it/shorts/index
+[Tue Jun 27 22:00:34.425873 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 124, referer: https://kilic.it/shorts/index
+[Tue Jun 27 22:00:34.425940 2023] [php:warn] [pid 5042] [client 95.223.106.227:16201] PHP Warning:  Undefined variable $loggedin in /var/www/kilicit/php/elements.php on line 153, referer: https://kilic.it/shorts/index
+[Tue Jun 27 22:00:35.448608 2023] [php:error] [pid 5042] [client 95.223.106.227:16201] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getNavigation(), 0 passed in /var/www/kilicit/account/register.php on line 51 and exactly 1 expected in /var/www/kilicit/php/elements.php:39\nStack trace:\n#0 /var/www/kilicit/account/register.php(51): getNavigation()\n#1 {main}\n  thrown in /var/www/kilicit/php/elements.php on line 39, referer: https://kilic.it/account/login
