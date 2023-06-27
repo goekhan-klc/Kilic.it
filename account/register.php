@@ -21,7 +21,7 @@ if (isset($_POST["submit"])) {
   $password = $_POST["password"];
   $confirmpassword = $_POST["confirmpassword"];
 
-  $duplicate = mysqli_query($conn, "SELECT * FROM user WHERE email = '$email'");
+  $duplicate = mysqli_query($conn, "SELECT * FROM user WHERE email = '$mail'");
 
   if (mysqli_num_rows($duplicate) > 0) { 
     echo "<script> alert('Email bereits vergeben'); </script>";
@@ -48,7 +48,7 @@ if (isset($_POST["submit"])) {
 </head>
     <body>
         <div class="header">
-          <?php getNavigation() ?>
+          <?php getNavigation("Register") ?>
         </div>
         
         <script src="../php/elements.js"></script>

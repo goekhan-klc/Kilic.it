@@ -9,7 +9,7 @@ if($setting["maintenance"]) {
 }
 
 if(isset($_POST["note"])) {
-    $id = rand(1, 999999);
+    $id = rand(1, 9999999);
     $text1 = $_POST['note'];
     $timestamp = date("d.m.Y H:i:s");
 
@@ -17,7 +17,7 @@ if(isset($_POST["note"])) {
     $stmt->bind_param("sss", $id, $text1, $timestamp);
     
     if ($stmt->execute()) {
-        if(!isset($_FILES["file"])) {
+        if(empty($_FILES['file'])) {
             header("Refresh: 0.1; url=note?id=" . $id);
         }
     } else {
@@ -25,28 +25,35 @@ if(isset($_POST["note"])) {
         echo $conn->error;
     }
 
-    if(isset($_FILES['file'])) {
+    if(isset($_FILES['file']) && $_FILES['file']['error'] === UPLOAD_ERR_OK) {
         $files = $_FILES['file'];
 
+        $targetDir = "../files/notes/";
+
         for ($i = 0; $i < count($files['name']); $i++) {
-            $file_name = $files['name'][$i];
+            $idi = $id . "_" . $i;
+            $file_name = basename($files['name'][$i]);
             $file_type = $files['type'][$i];
             $file_tmp = $files['tmp_name'][$i];
             $file_size = $files['size'][$i];
             $file_error = $files['error'][$i];
+
+            $targetFilePath = $targetDir . $idi;
+            $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
         
-            $file_content = file_get_contents($file_tmp);
-
-            $sql = "insert into files (idname, content, filename, filetype, filesize) values (?,?,?,?,?)";
-            $stmt = $conn->prepare($sql);
-            $stmt->bind_param("sssss", $id."_N_".$i, $file_content, $file_name, $file_type, $file_size);
-
-            if($stmt->execute()) {
-                header("Refresh: 0.1; url=note?id=" . $id);
-              } else {
-                echo "<script> alert('Fehler bei SQL INSERT') </script>";
-                echo $conn->error;
-              }
+            if(move_uploaded_file($files["tmp_name"][$i], $targetFilePath)){
+                $stmt = $conn->prepare("INSERT INTO files (idname, filetype, timestamp, folder) VALUES (?, ?, ?, ?)");
+                $stmt->bind_param("ssss", $idi, $file_type, $timestamp, "notes");
+                
+                if ($stmt->execute()) {
+                    header("Refresh: 0.1; url=note?id=" . $id);
+                } else {
+                    echo "<script> alert('Fehler bei SQL INSERT') </script>";
+                    echo $conn->error;
+                }
+            } else {
+                $statusMsg = "Sorry, there was an error uploading your file.";
+            }
 
           }
     }

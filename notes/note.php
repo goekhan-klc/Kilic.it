@@ -16,7 +16,7 @@ $id = $_GET["id"];
 $text;
 $timestamp;
 
-$sql = "select * from notes where id=" . $id; 
+$sql = "SELECT * FROM notes WHERE id=$id"; 
 $result = $conn->query($sql);
 $row = $result->fetch_assoc();
 
@@ -106,11 +106,12 @@ $text = nl2br($escapedText);
                 <div class='shareNote'> 
                 <a onclick='copyToClipboard()'>https://kilic.it/notes/note?id=$id  <span class='material-symbols-outlined'0000>link</span></a>
                 </div>
-              "; } else {
-                echo "
-                    <p style='margin-top:15%'></p>
-                    <span style='font-size: 30px; color: rgb(229, 27, 27);'>Dieses Note existiert nicht oder wurde gelöscht.</span>
-                ";
+              "; 
+            } else {
+        echo "
+                <p style='margin-top:15%'></p>
+                <span style='font-size: 30px; color: rgb(229, 27, 27);'>Dieses Note existiert nicht oder wurde gelöscht.</span>
+            ";
 
               } ?> 
             <br> <br> <br>
