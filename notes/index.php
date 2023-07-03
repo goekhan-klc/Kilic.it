@@ -9,15 +9,20 @@ if($setting["maintenance"]) {
 }
 
 if(isset($_POST["note"])) {
-    $id = rand(1, 9999999);
+    $id = uniqid('', false);
     $text1 = $_POST['note'];
-    $timestamp = date("d.m.Y H:i:s");
+    $timestamp = date("d.m.Y / H:i");
+    $creator = "Anonymous";
+    $uploadedfiles = false;
 
-    $stmt = $conn->prepare("INSERT INTO notes (id, text, timestamp) VALUES (?, ?, ?)");
-    $stmt->bind_param("sss", $id, $text1, $timestamp);
+    if($_FILES["file"]["size"][0] > 0) $uploadedfiles = true;
+    if($_SESSION["login"]) $creator = $_SESSION["name"];
+
+    $stmt = $conn->prepare("INSERT INTO notes (id, text, timestamp, creator) VALUES (?, ?, ?, ?)");
+    $stmt->bind_param("ssss", $id, $text1, $timestamp, $creator);
     
     if ($stmt->execute()) {
-        if(empty($_FILES['file'])) {
+        if($uploadedfiles == false) {
             header("Refresh: 0.1; url=note?id=" . $id);
         }
     } else {
@@ -25,37 +30,40 @@ if(isset($_POST["note"])) {
         echo $conn->error;
     }
 
-    if(isset($_FILES['file']) && $_FILES['file']['error'] === UPLOAD_ERR_OK) {
-        $files = $_FILES['file'];
+    if($uploadedfiles == true) {
+        #echo "<script> alert('LADE NUN HOCH') </script>";
 
+        $files = $_FILES['file'];
         $targetDir = "../files/notes/";
 
-        for ($i = 0; $i < count($files['name']); $i++) {
+        for ($i = 0; $i < count($files["name"]); $i++) {
             $idi = $id . "_" . $i;
-            $file_name = basename($files['name'][$i]);
-            $file_type = $files['type'][$i];
+            $file_type = end((explode(".", $files['name'][$i])));
             $file_tmp = $files['tmp_name'][$i];
             $file_size = $files['size'][$i];
             $file_error = $files['error'][$i];
+            $folder = "notes";
 
-            $targetFilePath = $targetDir . $idi;
-            $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
+            $targetFilePath = $targetDir.$idi.".".$file_type;
         
             if(move_uploaded_file($files["tmp_name"][$i], $targetFilePath)){
                 $stmt = $conn->prepare("INSERT INTO files (idname, filetype, timestamp, folder) VALUES (?, ?, ?, ?)");
-                $stmt->bind_param("ssss", $idi, $file_type, $timestamp, "notes");
+                $stmt->bind_param("ssss", $idi, $file_type, $timestamp, $folder);
                 
                 if ($stmt->execute()) {
-                    header("Refresh: 0.1; url=note?id=" . $id);
+
                 } else {
                     echo "<script> alert('Fehler bei SQL INSERT') </script>";
                     echo $conn->error;
                 }
             } else {
-                $statusMsg = "Sorry, there was an error uploading your file.";
+                echo "<script> alter('Error while uploading file') </script>";
             }
 
           }
+
+          #echo "<script alert('DATEI ERKANNT UND VERARBEITET') </script>";
+          header("Refresh: 0.1; url=note?id=" . $id);
     }
     
     $stmt->close();
@@ -64,9 +72,8 @@ if(isset($_POST["note"])) {
 } else if(isset($_POST["search"])) {
     $id = $_POST["search"];
 
-    if(strlen($id > 1 && $id < 9999999)) {
-        header("Location: https://kilic.it/notes/note?id=$id");
-    }
+    header("Location: https://kilic.it/notes/note?id=$id");
+
 }
 
 ?>
@@ -91,13 +98,13 @@ if(isset($_POST["note"])) {
         <span class="title2">Erstelle und teile eine neue Notiz</span>
         <p style="margin-top:50px"></p>
 
-        <form action="" method="POST" class="noteCreateForm">
+        <form action="" method="POST" class="noteCreateForm" enctype="multipart/form-data">
             <div class="noteAreaContainer">
                 <label for="note">Erstelle eine neue Notiz</label>
                 <textarea class="noteArea" placeholder="Schreibe hier..." name="note" id="note" required></textarea>
                 <br> <br>
                 <label for="files">Füge Dateien zu deiner Notiz hinzu</label>
-                <input type="file" id="file" name="file" multiple></input>
+                <input type="file" id="file" name="file[]" multiple></input>
             </div>
 
             <br>

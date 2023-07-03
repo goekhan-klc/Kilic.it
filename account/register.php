@@ -8,7 +8,7 @@ if(isset($_SESSION["login"]) && $_SESSION["login"] == true) {
 }
 
 if($setting["maintenance"]) {
-  header("Location: ../account/maintenance");
+  header("Location: ../maintenance");
 }
 
 if (isset($_SESSION["id"])) {

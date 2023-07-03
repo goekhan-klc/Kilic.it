@@ -57,7 +57,7 @@ $link = nl2br($escapedText);
             <?php if($link != "Dieses Short wurde nicht gefunden") {
   
                 echo "<div class='shortRedirect'>
-                    <span> Weiterleitung zu: </span> <div class='spinner'></div> <br><br>
+                    <span> Weiterleitung zu: </span> <div class='spinner'></div> <br><br><br>
                     <span style='text-decoration: underline;'> $link </span>
                     </div> ";
 

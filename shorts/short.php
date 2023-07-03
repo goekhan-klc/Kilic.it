@@ -77,12 +77,14 @@ $link = nl2br($escapedText);
     } else {
         getHead("Short #" . $id);
     }
+    echo "<meta property='og:description' content='$link'/>
+    <meta property='og:url' content='https://kilic.it/shorts'/>";
     ?>
 </head>
 
     <body>
         <div class="header">
-            <?php getNavigation(); ?>
+            <?php getNavigation("Short #$id"); ?>
         </div>
 
         <script src="../php/elements.js"></script>

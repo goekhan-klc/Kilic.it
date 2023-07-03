@@ -401,7 +401,7 @@ body {
   .shareNote a {
     color: white;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 18px;
     cursor: pointer;
   }
@@ -435,6 +435,29 @@ body {
           opacity: 0;
       }
   }
+  
+  .downloadButton {
+    background-color: #0c81c9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px solid #0c81c9;
+    cursor: pointer;
+    margin: 10px;
+    }
+  
+    .downloadButton:hover {
+      border: 2px solid #0568a6;
+      background-color: #0568a6;
+    }
+  
+    .downloadButton:active {
+      background-color: #0568a6;
+      border: 2px solid #ffffff;
+    }
 
 
 /*-----------------Shorts--------------------*/

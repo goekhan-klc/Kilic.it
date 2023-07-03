@@ -15,20 +15,40 @@ if(!isset($_GET["id"])) {
 $id = $_GET["id"];
 $text;
 $timestamp;
+$creator;
+$hasfiles = false;
 
-$sql = "SELECT * FROM notes WHERE id=$id"; 
+$sql = "SELECT * FROM notes WHERE id='$id'"; 
 $result = $conn->query($sql);
 $row = $result->fetch_assoc();
 
 if($result->num_rows == 1) {
-$escapedText = htmlspecialchars($row["text"]);
-$timestamp = $row["timestamp"];
-$text = nl2br($escapedText);
+    $escapedText = htmlspecialchars($row["text"]);
+    $timestamp = $row["timestamp"];
+    $text = nl2br($escapedText);
+    $creator = $row["creator"];
 
 } else {
     $text = "Diese Notiz wurde nicht gefunden";
 }
 
+
+
+$sql2 = "SELECT * FROM files WHERE idname LIKE '$id%'"; 
+$result2 = $conn->query($sql2);
+$rows2 = array();
+
+if($result2) {
+    while ($row2 = $result2->fetch_assoc()) {
+        $rows2[] = $row2;
+    }
+
+    if($result2->num_rows > 0) {
+        $hasfiles = true;
+        $countfiles = $result2->num_rows;
+        $files = $rows2; # 1. Nummer  2. Welche Information
+    }
+}
 ?>
 
 
@@ -77,12 +97,15 @@ $text = nl2br($escapedText);
     } else {
         getHead("Note #" . $id);
     }
+    echo "<meta property='og:description' content='$text'/>
+          <meta property='og:url' content='https://kilic.it/notes'/>";
+          
     ?>
 </head>
 
     <body>
         <div class="header">
-            <?php getNavigation(); ?>
+            <?php getNavigation("Note #$id"); ?>
         </div>
 
         <script src="../php/elements.js"></script>
@@ -100,11 +123,30 @@ $text = nl2br($escapedText);
                 <span>$text</span>
             </div>
             <br>
-            <span>Erstellt: $timestamp </span>
+            <span>Erstellt von $creator am $timestamp </span>";
 
-            <br> <br>
+        if($hasfiles) {
+            echo "
+            <br><br><hr style='width: 70%'><br>
+
+            <div class='fileContainer'> 
+                <label>Angehängte Dateien</label>
+                "; 
+
+                foreach($files as $afile) {
+                    $afile_name = end((explode("_", $afile["idname"])));
+                    $afile_type = $afile["filetype"];
+                    $afile_location = "../files/".$afile["folder"]."/".$afile["idname"].".".$afile["filetype"];
+
+                    echo "<button onclick=\"window.open('$afile_location', '_blank');\" type='button' class='downloadButton'>Datei $afile_name ($afile_type)</button>";
+                }
+
+            echo "</div>"; 
+        } 
+        echo "
+            <br><hr style='width: 70%'><br>
                 <div class='shareNote'> 
-                <a onclick='copyToClipboard()'>https://kilic.it/notes/note?id=$id  <span class='material-symbols-outlined'0000>link</span></a>
+                    <a onclick='copyToClipboard()'>https://kilic.it/notes/note?id=$id  <span class='material-symbols-outlined'0000>link</span></a>
                 </div>
               "; 
             } else {

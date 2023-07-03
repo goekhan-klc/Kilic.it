@@ -1,7 +1,7 @@
 <?php 
 
 if($setting["maintenance"]) {
-  header("Location: maintenance");
+  header("Location: ../maintenance");
 }
 
 ?>
