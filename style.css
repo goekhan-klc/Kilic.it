@@ -128,6 +128,7 @@ body {
   display: none;
 }
 
+
 @media (max-width: 480px) {
   
   .pcmenu {
@@ -139,12 +140,18 @@ body {
   }
 
   .hamburger-menu {
+    position: relative;
     display: block;
     text-align: right;
     margin-top: 20px;
     margin-right: 10px;
-    Z-index: 900;
+    z-index: 101;
     cursor: pointer;
+  }
+
+  .hamburger-menu.show {
+    display: block;
+    z-index: 101;
   }
 
   .mobilemenu-overlay {
@@ -154,9 +161,7 @@ body {
     left: 0;
     width: 100%;
     height: 150%;
-    background-color: rgb(38, 38, 38);
-    opacity: 0;
-    transition: opacity 1s ease;
+    background-color: #191919;
   }
 
   .mobilemenu-overlay.show {

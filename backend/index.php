@@ -66,13 +66,10 @@ if(isset($_POST["submit3"])) {
 
     <body>
         <div class="header">
-         <div class='pcmenu'>
-            <ul>
-                <li><a href="../index">Zurück zur Webseite</a></li>
-                <li><a href="../account/logout">Logout</a></li>
-            </ul>
-         </div>
+         <?php getNavigation("Backend"); ?>
         </div>
+
+        <script src="../php/elements.js"></script>
 
         <div class="main">
             <h1 class="title1">Backend</h1>
