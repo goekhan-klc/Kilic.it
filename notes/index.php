@@ -12,11 +12,11 @@ if(isset($_POST["note"])) {
     $id = uniqid('', false);
     $text1 = $_POST['note'];
     $timestamp = date("d.m.Y / H:i");
-    $creator = "Anonymous";
+    $creator = "-1";
     $uploadedfiles = false;
 
     if($_FILES["file"]["size"][0] > 0) $uploadedfiles = true;
-    if($_SESSION["login"]) $creator = $_SESSION["name"];
+    if($_SESSION["login"]) $creator = $_SESSION["id"];
 
     $stmt = $conn->prepare("INSERT INTO notes (id, text, timestamp, creator) VALUES (?, ?, ?, ?)");
     $stmt->bind_param("ssss", $id, $text1, $timestamp, $creator);

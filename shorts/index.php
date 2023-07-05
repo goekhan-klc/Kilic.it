@@ -12,11 +12,14 @@ if(isset($_POST["short"])) {
     $link = $_POST["short"];
     $id = rand(1, 99999);
     $timestamp = date("d.m.Y H:i:s");
+    $creator = "-1";
+
+    if($_SESSION["login"]) $creator = $_SESSION["id"];
 
     if(isLink($link)) {
 
-    $stmt = $conn->prepare("INSERT INTO shorts (id, link, timestamp) VALUES (?, ?, ?)");
-    $stmt->bind_param("sss", $id, $link, $timestamp);
+    $stmt = $conn->prepare("INSERT INTO shorts (id, link, timestamp, creator) VALUES (?, ?, ?, ?)");
+    $stmt->bind_param("ssss", $id, $link, $timestamp, $creator);
     
     if ($stmt->execute()) {
         header("Refresh: 0.1; url=short?id=" . $id);

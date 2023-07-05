@@ -28,6 +28,15 @@ if($result->num_rows == 1) {
     $text = nl2br($escapedText);
     $creator = $row["creator"];
 
+    if($creator != -1) {
+        $sql3 = "select name from user where id = $creator";
+        $result3 = $conn->query($sql3);
+        $row3 = $result3->fetch_assoc();
+        $creator = $row3["name"];
+    } else {
+        $creator = "Unbekannt";
+    }
+
 } else {
     $text = "Diese Notiz wurde nicht gefunden";
 }
@@ -93,7 +102,7 @@ if($result2) {
     
 <head>
     <?php if($text == "Diese Notiz wurde nicht gefunden") {
-        getHead("Note");
+        getHead("Notes");
     } else {
         getHead("Note #" . $id);
     }
@@ -105,7 +114,7 @@ if($result2) {
 
     <body>
         <div class="header">
-            <?php getNavigation("Note #$id"); ?>
+            <?php getNavigation("Notes"); ?>
         </div>
 
         <script src="../php/elements.js"></script>
@@ -138,7 +147,7 @@ if($result2) {
                     $afile_type = $afile["filetype"];
                     $afile_location = "../files/".$afile["folder"]."/".$afile["idname"].".".$afile["filetype"];
 
-                    echo "<button onclick=\"window.open('$afile_location', '_blank');\" type='button' class='downloadButton'>Datei $afile_name ($afile_type)</button>";
+                    echo "<button onclick=\"window.open('$afile_location', '_blank');\" type='button' class='downloadButton'>Datei ". (intval($afile_name)+1) ." ($afile_type)</button>";
                 }
 
             echo "</div>"; 
