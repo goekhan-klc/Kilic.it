@@ -16,7 +16,6 @@ body {
 
 .header {
   position: fixed;
-  top: 0px;
   width: 100%;
   z-index: 1;
   margin-top: -1px;
@@ -28,6 +27,9 @@ body {
 @media (max-width: 480px) {
   .header {
     background: transparent;
+    top: env(safe-area-inset-top);
+    margin-top: -1px;
+    margin: 0;
   }
 }
 
@@ -155,6 +157,7 @@ body {
 
   .logo {
     position: relative;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 35px;
     text-decoration: none;
     color: white;
@@ -167,34 +170,51 @@ body {
   }
 
   .mobilemenu-overlay {
-    display: none;
+    display: block;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 150%;
-    background-color: #191919;
+    background-color: #191919cc;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+
+    left:0;
+    right:0;
+    bottom:0;
+    top: -1%;
+
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    opacity: 0;
+    z-index: -100;
   }
 
   .mobilemenu-overlay.show {
     display: block;
+
+
+    top:0;
     opacity: 1;
+    z-index: 9;
+  }
+
+  body.openmenu {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
   }
 
   .mobilemenu-items {
-    display: none;
+    display: block;
+    opacity: 0;
 
     position: absolute;
     top: 100%;
-    left: 0;
     width: 100%;
 
     padding: 20px;
     box-sizing: border-box;
-    Z-index: 10;
-    opacity: 0;
-    transform: translateY(-20px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
+
+    transition: 1s;
+    -webkit-transition: 1s;
   }
 
   .mobilemenu-items li {
@@ -220,8 +240,9 @@ body {
 
   .mobilemenu-items.show {
     display: block;
+    z-index: 10;
+
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
