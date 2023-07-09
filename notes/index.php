@@ -67,7 +67,6 @@ if(isset($_POST["note"])) {
     }
     
     $stmt->close();
-    $conn->close();
 
 } else if(isset($_POST["search"])) {
     $id = $_POST["search"];
@@ -76,6 +75,18 @@ if(isset($_POST["note"])) {
 
 }
 
+    if($_SESSION['login']) {
+        $mynotes = array();
+
+        $sql11 = "SELECT * FROM notes WHERE creator=".$_SESSION['id']; 
+        $result11 = $conn->query($sql11);
+
+        if($result11) {
+            while ($row11 = $result11->fetch_assoc()) {
+                $mynotes[] = $row11;
+            }
+        }
+    }  
 ?>
 
 <!DOCTYPE html>
@@ -84,48 +95,78 @@ if(isset($_POST["note"])) {
 <head>
     <?php getHead("Notes"); ?>
 </head>
+
     <body>
         <div class="header">
             <?php getNavigation("Notes"); ?>
         </div>
 
-        <script src="../php/elements.js"></script>
-
         <br><br>
 
         <div class="main" style="display: grid; justify-content: center;">
-        <span class="title1">Notes</span><br>
-        <span class="title2">Erstelle und teile eine neue Notiz</span>
-        <p style="margin-top:50px"></p>
+            <span class="title1">Notes</span><br>
+            <span class="title2">Erstelle und teile eine neue Notiz</span>
+            <p style="margin-top:50px"></p>
 
-        <form action="" method="POST" class="noteCreateForm" enctype="multipart/form-data">
-            <div class="noteAreaContainer">
-                <label for="note">Erstelle eine neue Notiz</label>
-                <textarea class="noteArea" placeholder="Schreibe hier..." name="note" id="note" required></textarea>
-                <br> <br>
-                <label for="files">Füge Dateien zu deiner Notiz hinzu</label>
-                <input type="file" id="file" name="file[]" multiple></input>
+            <form action="" method="POST" class="noteCreateForm" enctype="multipart/form-data">
+                <div class="noteAreaContainer">
+                    <label for="note">Erstelle eine neue Notiz</label>
+                    <textarea class="noteArea" placeholder="Schreibe hier..." name="note" id="note" required></textarea>
+                    <br> <br>
+                    <label for="files">Füge Dateien zu deiner Notiz hinzu</label>
+                    <input type="file" id="file" name="file[]" multiple></input>
+                </div>
+
+                <br>
+                <button class="noteButton" type="submit" name="submit">Speichern & teilen</button>
+
+                <br><br><br><hr style="width: 90%"><br><br>
+
+            </form>
+
+            <form action="" method="POST" class="noteCreateForm">
+                <div class="noteAreaContainer">
+                    <label for="search">Oder suche nach der Note-ID</label>
+                    <input type="text" class="formInput" placeholder="Note-ID..." name="search" id="search" required></input>
+                </div>
+
+                <br>
+                <button class="noteButton" type="submit" name="submit">Suchen</button>
+            </form>
+
+            <?php if($_SESSION["login"]) {
+            echo "<br><br><hr style='width: 90%'><br><br>
+                <label>Oder suche nach deine Notes</label> <br>
+                <button class='noteButton' id='bttn_mynotes'>Meine Notes</button>
+            <br><br><br>
+
+            "; }
+            ?>
+
+    <div id='div_modal_mynotes' class='modal'>
+        <div id='div_modal_content_mynotes' class='modal-content'>
+            <div id='div_modal_header_mynotes' class='modal-header'>
+                <span id='span_modal_close' class='modal-close'>❌</span>
+                <span class="title2">Deine erstellten Notes:</span><br>
             </div>
 
-            <br>
-            <button class="noteButton" type="submit" name="submit">Speichern & teilen</button>
+            <div>
+                <ul class="mdal_mynotes_list">
 
-            <br><br><br><hr style="width: 90%"><br><br>
-
-        </form>
-
-        <form action="" method="POST" class="noteCreateForm">
-            <div class="noteAreaContainer">
-                <label for="search">Oder suche nach der Note-ID</label>
-                <input type="text" class="formInput" placeholder="Note-ID..." name="search" id="search" required></input>
+                <?php foreach($mynotes as $nr => $anote) {
+                    $nr = $nr +1;
+                    echo "
+                        <li style='margin-top: 10px;'>$nr. Note <a href='note?id=". $anote['id'] ."'>#". $anote['id'] ."</a></li>
+                        ";
+            
+                    }?>
+                </ul>
             </div>
-
-            <br>
-            <button class="noteButton" type="submit" name="submit">Suchen</button>
-        </form>
-
-        <p style="margin-top: 50px;"></p>
+        </div>
     </div>
+    </div>
+
+    <script src="../php/elements.js"></script>
 
     </body>
 </html>

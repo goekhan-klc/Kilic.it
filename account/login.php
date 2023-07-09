@@ -4,8 +4,18 @@
 require '../php/elements.php';
 require "../php/config.php";
 
+    function createSessionToken($userid) {
+        $length = 16;
+
+        $token = openssl_random_pseudo_bytes($length);        
+        $token = bin2hex($token);
+
+        return $userid."_".$token;
+    }
+
+
     if(isset($_SESSION["login"]) && $_SESSION["login"] == true) {
-        header("Location: ../backend/index");
+        header("Location: ../index");
     }
 
     if(isset($_POST["submit"])) {
@@ -26,9 +36,12 @@ require "../php/config.php";
              $_SESSION["login"] = true;
              $_SESSION["id"] = $row["id"];
              $_SESSION["name"] = $row["name"];
-             $_SESSION["mail"] = $row["mail"];
+             $_SESSION["mail"] = $row["email"];
+             $_SESSION["role"] = $row["role"]; //ROLES: "admin", "user"
 
-            header('Location: ../backend/index');
+             setcookie('sessionToken', createSessionToken($_SESSION["id"]), time() + 86400, '/', '', true, false);
+
+            header('Location: ../index');
         } else {
             echo "<script> alert('Mail oder Passwort nicht korrekt'); </script>";
             
@@ -61,10 +74,10 @@ require "../php/config.php";
 
             <form action="" method="POST" class="loginForm">
                 <label for="mail">E-Mail</label>
-                <input class="formInput" type="text" name="mail" id="mail" required><br><br>
+                <input class="formInput" type="text" name="mail" id="mail" placeholder="E-Mail.."required><br><br>
                 
                 <label for="password">Passwort:</label>
-                <input class="formInput" type="password" name="password" id="mail" required><br><br>
+                <input class="formInput" type="password" name="password" id="mail" placeholder="Passwort.." required><br><br>
                 
                 <button class="formSubmit" type="submit" name="submit">Anmelden</button>
             </form>    

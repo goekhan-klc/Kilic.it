@@ -28,10 +28,15 @@ if (isset($_POST["submit"])) {
   } else {
     if ($password == $confirmpassword) {
       $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-      $query = "insert into user(name,email,password) VALUES('$name', '$mail', '$hashedPassword');";
-      mysqli_query($conn, $query);
+      $defaultrole = "user";
+
+      $query = "INSERT INTO user (name, email, password, role) VALUES (?, ?, ?, ?)";
+      $stmt = mysqli_prepare($conn, $query);
+      mysqli_stmt_bind_param($stmt, "ssss", $name, $mail, $hashedPassword, $role);
+      mysqli_stmt_execute($stmt);
+
       echo "<script> alert('Das Konto wurde angelegt. Weiterleitung...'); </script>";
-      header("Refresh:2; url=login");
+      header("Refresh:1; url=login");
     } else {
       echo "<script> alert('Passwörter stimmen nicht überein'); </script>";
     }

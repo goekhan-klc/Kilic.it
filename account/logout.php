@@ -33,7 +33,9 @@ if($_SESSION["login"] == false || !isset($_SESSION["login"])) {
 </html>
 
     ";
-
+    
+    setcookie('sessionToken', "", time() - 86400, '/', '', true, false);
+    $_SESSION["login"] = false;
     destroySession();
     header('Refresh: 3; url=../index');
 

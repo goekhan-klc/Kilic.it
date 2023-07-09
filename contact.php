@@ -69,7 +69,7 @@ if(isset($_POST["submit"])) {
                         <input class="inpt_contact" placeholder="E-Mail.."type="text" name="txt_email" required>
 
                         <label for="txt_msg">Ihre Nachricht: (optional)</label>
-                        <input class="inpt_contact" placeholder="Hallo.."style="height:20%; width:40%;" type="text" name="txt_msg">
+                        <input class="inpt_contact inpt_contact_big" placeholder="Hallo.." type="text" name="txt_msg">
 
                         <br><br>
                         <button class="bttn_contact" type="submit" name="submit">Bestätigen</button>
