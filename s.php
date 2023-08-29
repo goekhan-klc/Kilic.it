@@ -58,10 +58,12 @@ $link = nl2br($escapedText);
   
                 echo "<div class='shortRedirect'>
                     <span> Weiterleitung zu: </span> <div class='spinner'></div> <br><br><br>
+                    </div> 
+                    
                     <span style='text-decoration: underline;'> $link </span>
-                    </div> ";
+                    ";
 
-                header("Refresh: 3; url=$link");
+                header("Refresh: 1; url=$link");
 
             } else {
                 echo "<span style='color: rgb(229, 27, 27);'> Es ist unter diesem Short kein Link hinterlegt </span>";
