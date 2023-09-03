@@ -15,8 +15,9 @@ if(!isset($_GET["id"])) {
 $id = $_GET["id"];
 $link;
 $timestamp;
+$creator;
 
-$sql = "select * from shorts where id=" . $id; 
+$sql = "select * from shorts where id='$id'"; 
 $result = $conn->query($sql);
 $row = $result->fetch_assoc();
 
@@ -24,6 +25,20 @@ if($result->num_rows == 1) {
 $escapedText = htmlspecialchars($row["link"]);
 $timestamp = $row["timestamp"];
 $link = nl2br($escapedText);
+$creator = $row["creator"];
+
+if($creator != -1 && $creator != -2) {
+    $sql3 = "select name from user where id = $creator";
+    $result3 = $conn->query($sql3);
+    $row3 = $result3->fetch_assoc();
+    $creator = $row3["name"];
+} else {
+    if($creator == -2) {
+        $creator = "API (v1)";
+    } else {
+        $creator = "Unbekannt";
+    }
+}
 
 } else {
     $link = "Dieses Short wurde nicht gefunden";
@@ -104,15 +119,15 @@ $link = nl2br($escapedText);
                 <div class='showLinkDiv'>
                     <span>$link</span>
                 </div>
-
-                <br><br><br><br>
-
-                <label>Kurzer Link (Click to Copy)</label>
-                <div class='showShortDiv'>
-                    <span><a onclick='copyToClipboard()'>https://kilic.it/s?i=$id</a></span>
-                </div>
+                
                 <br>
-                <span>Erstellt: $timestamp </span>
+                <span>Erstellt von $creator am $timestamp </span>
+                <br><br>
+
+                <div class='shareNote'> 
+                    <a onclick='copyToClipboard()'>https://kilic.it/s?i=$id  <span class='material-symbols-outlined'0000>link</span></a>
+                </div>
+                
                 
                 ";
             } else {

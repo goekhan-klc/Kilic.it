@@ -60,10 +60,10 @@ $link = nl2br($escapedText);
                     <span> Weiterleitung zu: </span> <div class='spinner'></div> <br><br><br>
                     </div> 
                     
-                    <span style='text-decoration: underline;'> $link </span>
+                    <span> $link </span>
                     ";
 
-                header("Refresh: 1; url=$link");
+                header("Refresh: 0.5; url=$link");
 
             } else {
                 echo "<span style='color: rgb(229, 27, 27);'> Es ist unter diesem Short kein Link hinterlegt </span>";

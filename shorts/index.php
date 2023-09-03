@@ -10,7 +10,7 @@ if($setting["maintenance"]) {
 
 if(isset($_POST["short"])) {
     $link = $_POST["short"];
-    $id = rand(1, 99999);
+    $id = $uniqueId = bin2hex(random_bytes(4));
     $timestamp = date("d.m.Y H:i:s");
     $creator = "-1";
 
@@ -36,6 +36,19 @@ if(isset($_POST["short"])) {
     }
 }
 
+if($_SESSION['login']) {
+    $myshorts = array();
+
+    $sql11 = "SELECT * FROM shorts WHERE creator=".$_SESSION['id']; 
+    $result11 = $conn->query($sql11);
+
+    if($result11) {
+        while ($row11 = $result11->fetch_assoc()) {
+            $myshorts[] = $row11;
+        }
+    }
+}  
+
 function isLink($text) {
     $pattern = '/\b(?:https?|ftp):\/\/[^\s]+\b/';
     return preg_match($pattern, $text);
@@ -54,30 +67,57 @@ function isLink($text) {
             <?php getNavigation("Shorts"); ?>
         </div>
 
-        <script src="../php/elements.js"></script>
-
         <br><br>
 
         <div class="main" style="display: grid; justify-content: center;">
-        <span class="title1">Shorts</span><br>
-        <span class="title2">Kürze und teile deine Links</span>
-        <p style="margin-top:50px"></p>
+            <span class="title1">Shorts</span><br>
+            <span class="title2">Kürze und teile deine Links</span>
+            <p style="margin-top:50px"></p>
 
-        <form action="" method="POST" class="noteCreateForm">
-            <div class="noteAreaContainer">
-                <label for="note" style="width: 90%;">Tippe den Link ein welchen du kürzen möchtest</label>
-                <input type="text" class="formInput" placeholder="Link..." name="short" id="short" required></textarea>
+            <form action="" method="POST" class="noteCreateForm">
+                <div class="noteAreaContainer">
+                    <label for="note" style="width: 90%;">Tippe den Link ein welchen du kürzen möchtest</label>
+                    <input type="text" class="formInput" placeholder="Link..." name="short" id="short" required></textarea>
+                </div>
+
+                <br>
+                <button class="noteButton" type="submit" name="submit">Kürzen & teilen</button>
+
+                <br>
+
+            </form>
+
+            <?php if($_SESSION["login"]) {
+                echo "<br><br><hr style='width: 90%'><br><br>
+                    <label>oder zeige deine erstellten Shorts</label> <br>
+                    <button class='noteButton' id='bttn_mynotes'>Meine Shorts</button>
+                <br><br><br>
+
+                "; }
+                ?>
+
+            <div id='div_modal_mynotes' class='modal'>
+                <div id='div_modal_content_mynotes' class='modal-content'>
+                    <div id='div_modal_header_mynotes' class='modal-header'>
+                        <span id='span_modal_close' class='modal-close'>❌</span>
+                        <span class="title2">Deine erstellten Shorts:</span><br>
+                    </div>
+                    <div>
+                        <ul class="mdal_mynotes_list">
+                            <?php foreach($myshorts as $nr => $ashort) {
+                                $nr = $nr +1;
+                                echo "
+                                    <li style='margin-top: 10px;'>$nr. Short <a href='short?id=". $ashort['id'] ."'>#". $ashort['id'] ."</a></li>";
+                            }?>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <br>
-            <button class="noteButton" type="submit" name="submit">Kürzen & teilen</button>
+            <p style="margin-top: 50px;"></p>
+        </div>
 
-            <br><br><br><br>
-
-        </form>
-
-        <p style="margin-top: 50px;"></p>
-    </div>
+    <script src="../php/elements.js"></script>
 
     </body>
 </html>

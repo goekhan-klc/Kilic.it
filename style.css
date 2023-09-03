@@ -896,7 +896,7 @@ body.openmenu {
 }
 
 .bLinkedIn {
-    background: rgb(0, 70, 105);
+    background: #0959a9;
 }
 
 .bGitHub {
@@ -904,11 +904,15 @@ body.openmenu {
 }
 
 .bSoundCloud {
-    background: #c75614;
+    background: #F26F23;
+}
+
+.bSpotify {
+  background: #1DB954;
 }
 
 .bSnapchat {
-    background: #d0cc0a;
+    background: #ddd90c;
     color: #22272e;
 }
 

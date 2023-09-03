@@ -136,7 +136,7 @@ if(isset($_POST["note"])) {
 
             <?php if($_SESSION["login"]) {
             echo "<br><br><hr style='width: 90%'><br><br>
-                <label>Oder suche nach deine Notes</label> <br>
+                <label>oder zeige deine erstellten Notes</label> <br>
                 <button class='noteButton' id='bttn_mynotes'>Meine Notes</button>
             <br><br><br>
 
@@ -148,23 +148,20 @@ if(isset($_POST["note"])) {
             <div id='div_modal_header_mynotes' class='modal-header'>
                 <span id='span_modal_close' class='modal-close'>❌</span>
                 <span class="title2">Deine erstellten Notes:</span><br>
-            </div>
-
-            <div>
-                <ul class="mdal_mynotes_list">
-
-                <?php foreach($mynotes as $nr => $anote) {
-                    $nr = $nr +1;
-                    echo "
-                        <li style='margin-top: 10px;'>$nr. Note <a href='note?id=". $anote['id'] ."'>#". $anote['id'] ."</a></li>
-                        ";
-            
-                    }?>
-                </ul>
+                </div>
+                    <div>
+                        <ul class="mdal_mynotes_list">
+                            <?php foreach($mynotes as $nr => $anote) {
+                            $nr = $nr +1;
+                            echo "
+                                <li style='margin-top: 10px;'>$nr. Note <a href='note?id=". $anote['id'] ."'>#". $anote['id'] ."</a></li>
+                                ";
+                            }?>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
 
     <script src="../php/elements.js"></script>
 

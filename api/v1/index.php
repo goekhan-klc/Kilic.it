@@ -15,8 +15,14 @@ if($api_type == "shorts") {
         $link = $api_input1;
         $id = rand(1, 99999);
         $timestamp = date("d.m.Y H:i:s");
-        $creator = "-2";
+        $creator = "";
 
+        if($_SESSION['login']) {
+            $creator = $_SESSION['id'];
+        } else {
+            $creator = "-2";
+        }
+ 
         $stmt = $conn->prepare("INSERT INTO shorts (id, link, timestamp, creator) VALUES (?, ?, ?, ?)");
         $stmt->bind_param("ssss", $id, $link, $timestamp, $creator);
         
