@@ -16,7 +16,7 @@ $id = $_GET["i"];
 $link;
 $timestamp;
 
-$sql = "select * from shorts where id=" . $id; 
+$sql = "select * from shorts where id='$id'"; 
 $result = $conn->query($sql);
 $row = $result->fetch_assoc();
 

@@ -10,7 +10,7 @@ if($setting["maintenance"]) {
 
 if(isset($_POST["short"])) {
     $link = $_POST["short"];
-    $id = $uniqueId = bin2hex(random_bytes(4));
+    $id = $uniqueId = bin2hex(random_bytes(3));
     $timestamp = date("d.m.Y H:i:s");
     $creator = "-1";
 
