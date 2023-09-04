@@ -8,6 +8,8 @@ if($_SESSION["login"] == false || !isset($_SESSION["login"])) {
 }
 
     function destroySession() {
+        setcookie('sessionToken', "", time() - 86400, '/', '', true, false);
+        $_SESSION["login"] = false;
         $_SESSION = [];
         session_unset();
         session_destroy();
@@ -34,10 +36,9 @@ if($_SESSION["login"] == false || !isset($_SESSION["login"])) {
 
     ";
     
-    setcookie('sessionToken', "", time() - 86400, '/', '', true, false);
-    $_SESSION["login"] = false;
+
     destroySession();
-    header('Refresh: 3; url=../index');
+    header('Refresh: 1; url=../index');
 
     exit;
 ?>

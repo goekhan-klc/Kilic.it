@@ -71,12 +71,13 @@ if(isset($_POST["submit3"])) {
 
         <nav class="nav_profil_sidebar">
             <a href="profil">&#187; Deine Daten</a>
-            <a href="#"> &#187; Einstellungen</a>
+            <a href="einstellungen"> &#187; Einstellungen</a>
             <a class="active" href='admin'>&#187; Administrator</a>
             <a href='../account/logout'>&#187; Ausloggen</a>
         </nav>
 
         <div class="main">
+            <p style="margin-top:80px;"></p>
             <h1 class="title1">Admin-Verwaltung</h1>
             <p style="margin-top:50px"></p>
             

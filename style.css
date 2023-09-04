@@ -783,6 +783,63 @@ body.openmenu {
   }
 
 
+/*------------------Sync------------------*/
+
+.syncCard {
+  display: grid;
+  background-color: #2d2d30;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 10px;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 16px;
+  color: white;
+  width: auto;
+  height: auto;
+
+  justify-content: center;
+}
+
+.syncPacket {
+  max-width: 70%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .syncPacket {
+    max-width: 99%;
+  }
+}
+
+.syncList {
+  margin: 20px;
+}
+
+.syncButton {
+  background-color: #272727;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+  }
+
+  .syncButton:hover {
+    border: 1px solid #c497fb;
+  }
+
+  .syncButton:active {
+    background-color: #222;
+    border: 1px solid white;
+  }
+
+
 
 
 /*------------------Classes------------------*/

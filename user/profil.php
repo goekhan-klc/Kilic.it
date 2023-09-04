@@ -3,8 +3,30 @@ require '../php/elements.php';
 require "../php/config.php";
 
 if($_SESSION["login"] == false) {
-    header("Location: ../index");
+    header("Location: ../account/login");
 }
+
+if(isset($_POST["submit1"])) {
+    if(!empty($_POST["newpw"])) {
+        $newpw = $_POST["newpw"];
+
+        $hashedPassword = password_hash($newpw, PASSWORD_DEFAULT);
+  
+        $query = "UPDATE user SET password = ? WHERE id = ?";
+        $stmt = mysqli_prepare($conn, $query);
+        mysqli_stmt_bind_param($stmt, "si", $hashedPassword, $_SESSION["id"]);
+        mysqli_stmt_execute($stmt);
+  
+        destroySession();
+        header("Refresh:1; url=../account/login");
+    }
+}
+
+function destroySession() {
+    $_SESSION = [];
+    session_unset();
+    session_destroy();
+};
 
 ?>
 
@@ -22,7 +44,7 @@ if($_SESSION["login"] == false) {
 
         <nav id="nav_profil_sidebar" class="nav_profil_sidebar">
             <a class="active" href="#">&#187; Deine Daten</a>
-            <a href="#"> &#187; Einstellungen</a>
+            <a href="einstellungen"> &#187; Einstellungen</a>
             <?php if($_SESSION["role"] == "admin") echo "<a href='admin'>&#187; Administrator</a>"; ?>
             <a href='../account/logout'>&#187; Ausloggen</a>
         </nav>
@@ -57,10 +79,14 @@ if($_SESSION["login"] == false) {
                     <?php echo $_SESSION['role'] ?>
                 </div>
 
-                <br>
+                <br><hr><br>
 
                 <label>Ändere dein Passwort</label>
-                <input type="text" class="showLinkDiv" placeholder="***********">
+                    <form action="" method="POST">
+                    <input type="text" class="showLinkDiv" type="password" placeholder="***********" name="newpw" required>
+                    <br>
+                    <button class="settingsButton" type="submit" name="submit1">Ändern</button>
+                </form>
             </div>
         </div>
 

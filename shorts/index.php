@@ -11,7 +11,7 @@ if($setting["maintenance"]) {
 if(isset($_POST["short"])) {
     $link = $_POST["short"];
     $id = $uniqueId = bin2hex(random_bytes(3));
-    $timestamp = date("d.m.Y H:i:s");
+    $timestamp = date("d.m.Y / H:i");
     $creator = "-1";
 
     if($_SESSION["login"]) $creator = $_SESSION["id"];

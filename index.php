@@ -33,11 +33,11 @@ if($setting["maintenance"]) {
                 <br>
                 <div class="text highlight">
                     Anwendungen <br><br>
-                   Notes = Notizen erstellen & teilen <br>
-                   Shorts = Links kürzen & teilen (+ api)<br>
-                   MovieList = Projekt für einen Kurs des Studiums<br>
-                   <br>
-                   Alles PHP & SQL basiert.
+                    Notes = Notizen erstellen & teilen <br>
+                    Shorts = Links kürzen & teilen (+ api)<br>
+                    MovieList = Projekt für einen Kurs des Studiums<br>
+                    <br>
+                    PHP, JS & SQL basiert.
                     <br>
                 </div>
             </div>
