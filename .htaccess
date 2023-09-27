@@ -1,5 +1,6 @@
-DirectoryIndex index.html index.php
-ErrorDocument 404 /404
+DirectoryIndex index.php index.html
+ErrorDocument 404 //error_codes/404
+ErrorDocument 403 /error_codes/403
 
 RewriteEngine On
 

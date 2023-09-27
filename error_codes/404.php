@@ -1,7 +1,7 @@
 <!--made by me-->
 <?php
-require './php/elements.php';
-require "./php/config.php";
+require '../php/elements.php';
+require "../php/config.php";
 ?>
 
 <!DOCTYPE html>
