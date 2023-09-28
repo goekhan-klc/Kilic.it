@@ -47,11 +47,11 @@ if($setting["maintenance"]) {
             <div class="socialBoxes">
                 <button onclick=" window.open('http://instagram.com/goekhan.klc','_blank')" class="socialButton bInsta">Instagram <span class="material-symbols-outlined">link</span></button>
                 <br><button onclick=" window.open('https://www.linkedin.com/in/g%C3%B6khan-kilic/','_blank')" class="socialButton bLinkedIn">LinkedIn <span class="material-symbols-outlined">link</span></button>
-                <br><button onclick=" window.open('https://t.snapchat.com/OxlUyqA4', '_blank')" class="socialButton bSnapchat">Snapchat <span class="material-symbols-outlined">link</span></button>
+                <!--<br><button onclick=" window.open('https://t.snapchat.com/OxlUyqA4', '_blank')" class="socialButton bSnapchat">Snapchat <span class="material-symbols-outlined">link</span></button>-->
                 <br>
                 <br><button onclick=" window.open('https://github.com/goekhan-klc', '_blank')" class="socialButton bGitHub">GitHub <span class="material-symbols-outlined">link</span></button>
                 <br><button onclick=" window.open('https://open.spotify.com/user/kiligo_','_blank')" class="socialButton bSpotify">Spotify <span class="material-symbols-outlined">link</span></button>
-                <br><button onclick=" window.open('https://soundcloud.com/goekhn', '_blank')" class="socialButton bSoundCloud">SoundCloud <span class="material-symbols-outlined">link</span></button>
+               <!--<br><button onclick=" window.open('https://soundcloud.com/goekhn', '_blank')" class="socialButton bSoundCloud">SoundCloud <span class="material-symbols-outlined">link</span></button>-->
             </div> 
             <br> <br> <hr class="hr2">
             
