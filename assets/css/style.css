@@ -58,9 +58,9 @@
   
     --jet: hsl(0, 0%, 22%);
     --onyx: hsl(240, 1%, 17%);
-    --eerie-black-1: hsl(240, 2%, 13%);
-    --eerie-black-2: hsl(240, 2%, 12%);
-    --smoky-black: hsl(0, 0%, 7%);
+    --eerie-black-1: hsl(0, 0%, 95%);
+    --eerie-black-2: hsl(0, 0%, 95%);
+    --smoky-black: hsl(0, 0%, 94%);
     --white-1: hsl(0, 0%, 100%);
     --white-2: hsl(0, 0%, 98%);
     --orange-yellow-crayola: hsl(45, 100%, 72%);
@@ -1882,7 +1882,7 @@
   }
 
   body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, #ffffff, #afeeff, #23a6d5);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
