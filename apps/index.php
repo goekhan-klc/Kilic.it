@@ -35,10 +35,7 @@ if($setting["maintenance"]) {
                     Anwendungen <br><br>
                     Notes = Notizen erstellen & teilen <br>
                     Shorts = Links kürzen & teilen (+ api)<br>
-                    MovieList = Projekt für einen Kurs des Studiums<br>
-                    <br>
-                    PHP, JS & SQL basiert.
-                    <br>
+                    MovieList = Studienprojekt<br>
                 </div>
             </div>
 

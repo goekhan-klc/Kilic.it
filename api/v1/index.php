@@ -14,7 +14,7 @@ request types:
 
 */
 
-require '../../php/config.php';
+require '../apps/php/config.php';
 
 
 if(empty($_GET["type"]) || empty($_GET["i1"])) {
