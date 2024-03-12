@@ -11,9 +11,9 @@ a:hover { color: #333; text-decoration: none; }
     border-radius: 100%;
     font-size: 24px;
     margin-right: 7px;
-    transition: transform 1s;
+    transition: transform 0.4s;
 }
 
 .fa:hover {
-    transform: rotate(15deg);
+    transform: scale(1.2, 1.2);
 }
