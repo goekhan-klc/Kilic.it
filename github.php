@@ -1,4 +1,6 @@
 <?php 
 exec("git pull", $out);
-echo $out;
+foreach ($out as $line) {
+    echo $line . "\n";
+}
 ?>
