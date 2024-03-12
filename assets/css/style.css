@@ -17,3 +17,11 @@ a:hover { color: #333; text-decoration: none; }
 .fa:hover {
     transform: scale(1.2, 1.2);
 }
+
+#signature {
+    transition: transform 0.4s;
+}
+
+#signature:hover {
+    transition: transform 0.4s;
+}
