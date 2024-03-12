@@ -1,4 +1,4 @@
 <?php 
-$out = exec("git pull");
+exec("git pull", $out);
 echo $out;
 ?>
